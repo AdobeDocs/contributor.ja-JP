@@ -1,10 +1,10 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
+lastModified: '2018-06-28'
 title: 大きな変更をする際の GitHub コントリビューションワークフロー
 seo-title: アドビのドキュメントに大きな変更を加える際の GitHub コントリビューションワークフロー
 description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
 seo-description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
