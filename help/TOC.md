@@ -12,7 +12,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-cloud/tutorials.html
 test-meta: テスト
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
