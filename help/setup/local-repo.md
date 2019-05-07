@@ -4,7 +4,7 @@ seo-title: アドビのドキュメント用のローカル Git リポジトリ�
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 seo-description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ---
 

@@ -5,7 +5,7 @@ seo-title: アドビのドキュメントに大きな変更を加える際の Gi
 description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
 seo-description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cb9e20da64bb04a2b1765338b237825cae7aabeb
 
 ---
 

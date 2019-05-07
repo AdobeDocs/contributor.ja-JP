@@ -5,7 +5,7 @@ seo-title: Adobe Git/Markdown ドキュメント内でのリンクの使用
 description: この記事では、コンテンツや画像へのリンクを作成するときのガイドラインを説明します。
 seo-description: この記事では、アドビのドキュメント内でコンテンツや画像へのリンクを作成するときのガイドラインを説明します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 ---
 

@@ -6,7 +6,7 @@ description: アドビのドキュメントにコンテンツ的な貢献をす�
 seo-description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 index: true
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
 
 ---
 

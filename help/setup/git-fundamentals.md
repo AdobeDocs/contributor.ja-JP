@@ -4,7 +4,7 @@ seo-title: Git および GitHub のドキュメントの基礎
 description: この記事では、Git、GitHub リポジトリ、コンテンツの編成方法と、アドビのドキュメントで使用される命名規則の概要について説明します。
 seo-description: この記事では、Git、GitHub リポジトリ、コンテンツの編成方法と、アドビのドキュメントで使用される命名規則の概要について説明します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ---
 

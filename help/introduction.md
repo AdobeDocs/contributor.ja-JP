@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビュ�
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
 
 ---
 

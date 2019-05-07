@@ -5,7 +5,7 @@ seo-title: Markdown を使用してアドビのドキュメントを記述する
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
 
 ---
 

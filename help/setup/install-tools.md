@@ -5,7 +5,7 @@ seo-title: アドビのドキュメント用の Git および GitHub オーサ�
 description: この記事では、Git／GitHub の操作や Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
 seo-description: この記事では、Git／GitHub の操作やアドビのドキュメントの Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: c52ce435e8bbd6a4666cf9b5f46ccfc8b12c170f
 
 ---
 
