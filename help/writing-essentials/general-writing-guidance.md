@@ -4,10 +4,11 @@ title: アドビドキュメントの記述ガイドライン
 seo-title: アドビドキュメントの記述ガイドライン
 description: この記事には、アドビのドキュメントへのコントリビューションに関する重要なガイダンスが含まれています。
 seo-description: この記事には、アドビのドキュメントへのコントリビューションに関する重要なガイダンスが含まれています。
-translation-type: ht
-source-git-commit: 1c289ce5a8fdceb7187676e48511c560a69d69c9
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # アドビドキュメントの記述ガイドライン
 
