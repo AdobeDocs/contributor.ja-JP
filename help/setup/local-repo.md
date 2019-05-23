@@ -3,10 +3,11 @@ title: ローカル Git リポジトリの設定
 seo-title: アドビのドキュメント用のローカル Git リポジトリの設定
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 seo-description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
-translation-type: ht
-source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # ドキュメント用のローカル Git リポジトリの設定
 
@@ -27,7 +28,7 @@ source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ## リポジトリを特定
 
-変更案を保存するための読み取り／書き込み権限を取得するには、適切なリポジトリを自身の GitHub アカウントにフォークします。[!UICONTROL Adobe Experience Cloud] ドキュメントは [github.com](https://www.github.com/adobedocs) の複数の異なるリポジトリ内にあります。
+変更案を保存するための読み取り／書き込み権限を取得するには、適切なリポジトリを自身の GitHub アカウントにフォークします。[!UICONTROL Adobe Experience Cloud] ドキュメントは、 [github.comにある複数の異なるリポジトリにあり](https://www.github.com/adobedocs)ます。
 
 1. 作業対象となるリポジトリがわからない場合は、Web ブラウザーで目的の記事にアクセスします。記事の右上にある **Edit** リンク（鉛筆アイコン）を選択します（Edit リンクが表示されない場合は、そのコンテンツはまだ GitHub 上にありません）。
 
@@ -72,4 +73,4 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. ローカルファイルとフォークされたリポジトリの同期を保つには、GitHub Desktop を使用します。
 
-詳細は、[GitHub Desktop ドキュメント](https://help.github.com/desktop/)を参照してください。
+詳しくは、[GitHub Desktop のドキュメント](https://help.github.com/desktop/)を参照してください。
