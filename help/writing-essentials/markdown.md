@@ -4,10 +4,11 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # Markdown を使用した技術ドキュメントの書き方
 
@@ -148,8 +149,8 @@ This is not \*italicized\* type.
 テーブルの作成について詳しくは、以下を参照してください。
 
 - GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリケーション
-- [HTML テーブルを Markdown に変換](https://jmalarcon.github.io/markdowntables/)
+- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
+- [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
 
 ### リンク
 
@@ -163,7 +164,7 @@ Markdown のインラインリンクの構文は、ハイパーリンクされ�
 
 表示：
 
-[アドビ](https://www.adobe.com) または <https://www.adobe.com>
+[Adobe](https://www.adobe.com) or <https://www.adobe.com>
 
 リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。相対リンクのすべてのオペランド、例えば/（現在のディレクトリ）、../（1 つ上のディレクトリ）、../../（2 つ上のディレクトリ）などを使用できます。
 
@@ -215,11 +216,11 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-コードブロックのプロパティを指定すると、行番号を省略したり（デフォルトでオン）、行の折り返しを適用したりできます（デフォルトでオフ）。そのためには、{line-numbers="no"} および {line-wrap="yes"} を使用します。これらのプロパティはカスタムの Markdown 拡張です。
+コードブロックのプロパティを指定すると、行番号を省略したり（デフォルトでオン）、行の折り返しを適用したりできます（デフォルトでオフ）。そのためには、{line-numbers=&quot;no&quot;} および {line-wrap=&quot;yes&quot;} を使用します。これらのプロパティはカスタムの Markdown 拡張です。
 
-\`\`\`javascript {line-numbers="no"}
+\`\`\`javascript {line-numbers=&quot;no&quot;}
 function test() {
-console.log("notice the blank line before this function?");
+console.log(&quot;notice the blank line before this function?&quot;);
 \`\`\`
 
 ### 定義リスト
@@ -258,7 +259,7 @@ Cat
 - ローカライズ禁止
 - コンポーネントプロパティ（見出しに異なる見出し ID を割り当てるなど）
 
-メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（>）を使用します。コンポーネント内にサブコンポーネントを入れる必要がある場合は、サブコンポーネントのセクション用に 1 つ深いレベルのブロッククォートを追加します（>  >）。例えば、ローカライズ禁止セクション内にメモを入れるには、メモのセクションを>    > で始めます。
+メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（&gt;）を使用します。コンポーネント内にサブコンポーネントを入れる必要がある場合は、サブコンポーネントのセクション用に 1 つ深いレベルのブロッククォートを追加します（&gt;  &gt;）。例えば、ローカライズ禁止セクション内にメモを入れるには、メモのセクションを&gt;    &gt; で始めます。
 
 見出しやコードブロックなどの一般的な Markdown 要素には、拡張プロパティが備わっているものもあります。デフォルトプロパティを変更する場合は、コンポーネントの後に中かっこ /{ /} で囲んでパラメーターを追加します。拡張プロパティについては、本文中で説明しています。
 
@@ -374,7 +375,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-- 左（開始）引用符：`&#8220;`
+- 左（開始）引用符： `&#8220;`
 - 右（終了）引用符：`&#8221;`
 - 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 - 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -383,15 +384,15 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。`&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
-タイトル内でアンパサンド（&）を使用することはできません。代わりに、「および」のように書くか、`&amp;` というエンコードを使用します。
+タイトル内でアンパサンド（&amp;）を使用することはできません。代わりに、「および」のように書くか、`&amp;` というエンコードを使用します。
 
 ## 関連トピック
 
 ### Markdown のリソース
 
-- [Markdown の概要](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub の Markdown の基本](https://help.github.com/articles/markdown-basics/)
+- [Markdown 概要](https://daringfireball.net/projects/markdown/syntax)
+- [GitHub の Markdown の基礎](https://help.github.com/articles/markdown-basics/)
