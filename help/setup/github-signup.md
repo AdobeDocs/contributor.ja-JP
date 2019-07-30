@@ -5,7 +5,7 @@ seo-title: Adobe Experience Cloud ドキュメントに関する GitHub アカ�
 description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 seo-description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 GitHub 上にあるアドビやその他組織のドキュメントに変更や追加をおこなうには、自分用の GitHub アカウントをセットアップする必要があります。手順は簡単です。
 
-1. GitHub アカウントをまだ持っていない場合は、[https://github.com/join](https://github.com/join) にアクセスします。
+1. GitHub アカウントをまだお持ちでない場合は、[https://github.com/join](https://github.com/join) にアクセスします。
 1. 画面の指示に従ってアカウントを作成します。
 1. GitHub に慣れていない場合は、セットアッププロセスの最後に表示されるチュートリアルを実行してください。
 
@@ -27,7 +27,7 @@ GitHub プロファイルで自身の所属情報を設定します。識別情�
 
 このプロジェクトに対してサードパーティがおこなうコントリビューションには、署名されたコントリビューター使用許諾契約（CLA）が関連付けられている必要があります。この使用許諾契約は、アドビに対してそのコントリビューションをプロジェクトの一部として再配布する権限を認めるものです。
 
-1. 同意できる場合は [、寄稿者使用許諾契約（CLA）](http://opensource.adobe.com/cla.html) に署名します。
+1. 同意できる場合は [コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
 ## アドビの従業員
 
