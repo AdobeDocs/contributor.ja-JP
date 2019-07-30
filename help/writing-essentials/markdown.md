@@ -4,7 +4,7 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 Markdown では、段落を示す特別な構文はありません。
 
-テキストを**太字**にするには、2 つのアスタリスクで囲みます。テキストを*斜体*にするには、1 つのアスタリスクで囲みます。
+テキストを&#x200B;**太字**&#x200B;にするには、2 つのアスタリスクで囲みます。テキストを&#x200B;*斜体*&#x200B;にするには、1 つのアスタリスクで囲みます。
 
 ```markdown
     This text is **bold**.
@@ -149,8 +149,8 @@ This is not \*italicized\* type.
 テーブルの作成について詳しくは、以下を参照してください。
 
 - GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
-- [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
+- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリケーション
+- [HTML テーブルを Markdown に変換](https://jmalarcon.github.io/markdowntables/)
 
 ### リンク
 
@@ -164,7 +164,7 @@ Markdown のインラインリンクの構文は、ハイパーリンクされ�
 
 表示：
 
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[アドビ](https://www.adobe.com) または <https://www.adobe.com>
 
 リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。相対リンクのすべてのオペランド、例えば/（現在のディレクトリ）、../（1 つ上のディレクトリ）、../../（2 つ上のディレクトリ）などを使用できます。
 
@@ -331,7 +331,7 @@ Displayed:
 
 ローカライズしてはいけない単語やフレーズがある場合は、その単語やフレーズを `[!DNL]` 拡張で囲います。
 
-ソリューションのユーザーインターフェイスやメニューの要素には、`[!UICONTROL]` 拡張を使用します。
+ソリューションのユーザーインターフェイスやメニューの要素には、`` 拡張を使用します。
 
 **例：**
 
@@ -394,5 +394,5 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### Markdown のリソース
 
-- [Markdown 概要](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub の Markdown の基礎](https://help.github.com/articles/markdown-basics/)
+- [Markdown の概要](https://daringfireball.net/projects/markdown/syntax)
+- [GitHub の Markdown の基本](https://help.github.com/articles/markdown-basics/)
