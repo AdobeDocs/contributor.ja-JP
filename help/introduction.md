@@ -3,8 +3,8 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: ht
-source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
+translation-type: tm+mt
+source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ---
 
@@ -32,13 +32,13 @@ source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
 > All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
---->
+-->
 
 ## 既存ドキュメントのクイック編集
 
 クイック編集は、ドキュメント内の小さな不備や欠落を修正するのに便利です。記事に以下のような編集ボタンが表示されている場合は、閲覧者がその場で修正できます。文書を編集するときには、修正または提案をアドビに提出するためのプルリクエスト（PR）を送信します。その提案をアドビがレビューして承認し、公開します。
 
-1. 同意できる場合は [コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
+1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
 
    アドビの CLA は 1 回提出すれば済みます。
 1. 右列の **`Edit this page`** をクリックして、GitHub の Markdown ソースファイルに移動します。
