@@ -43,29 +43,24 @@ Adobe Experience cloud製品ドキュメントは、ほとんどの言語で表�
 
 自動翻訳はインターネット上でユビキタスで、その使用は強力な情報収集ツールとして一般に受け入れられています。 これは、人間の介入がほとんどないし全くない場合に、ナレッジベースのコンテンツに広く採用されています。 近年、技術的な大きな進歩が見られるが、自動生成された翻訳には、言語や意味に関する不正確な点や誤りがときどき含まれる。
 
-### Automatic Translation via the Browser
+### ブラウザーを使用した自動翻訳
 
-任意のページを自動的に自分の言語に翻訳するようにブラウザーの環境設定を設定した場合は、作成される翻訳がアドビのページで取得される翻訳と異なることに注意してください。 これは、ブラウザーが提供するサービスがStock Translationsである場合があり、Adobeの翻訳はAdobeスタイルのガイドラインと用語に従ってカスタマイズされるためです。 To obtain optimal automatic translation results, we recommend that you either disable the browser option for this specific site in your browser preferences, or click Never translate when it displays.****
+任意のページを自動的に自分の言語に翻訳するようにブラウザーの環境設定を設定した場合は、作成される翻訳がアドビのページで取得される翻訳と異なることに注意してください。 これは、ブラウザーが提供するサービスがStock Translationsである場合があり、Adobeの翻訳はAdobeスタイルのガイドラインと用語に従ってカスタマイズされるためです。 最適な自動翻訳結果を得るには、ブラウザーの環境設定でこのサイトのブラウザーオプションを無効にするか、表示されたら「翻訳しない **** 」をクリックすることをお勧めします。
 
 ### 既知の問題
 
-You might occasionally experience issues with the automatic translation output, such as incomplete translations, corrupted characters or page layout issues. These are caused by any of the various authoring, publishing, or translation technology tools Adobe uses. We will make every effort to list the known issues here
-below.
+翻訳が不完全である、文字の破損、ページレイアウトの問題など、自動翻訳出力に問題が生じる場合があります。 これは、アドビが使用する様々なオーサリング、パブリッシング、または翻訳の技術ツールのいずれかが原因です。 以下の既知の問題を記載するよう努めます。
 
-| **ISSUE ID** | **DESCRIPTION** | **ステータス** |
+| **雑誌号ID** | **DESCRIPTION** | **ステータス** |
 |--------------|-------------------------------------------------------------------------------------|------------|
-| G11N3558 | Some Audience Manager pages are half English and half translated (French, Spanish). | OPEN |
+| G11N3558 | 一部のAudience Managerページは、英語が半数、翻訳が半分（フランス語、スペイン語）です。 | OPEN |
 
 ### フィードバック
 
-Whenever content is automatically translated, either by default or user action, there is the option to provide feedback to Adobe about the translations. In the
-light-blue horizontal bar at the top of the page, you may answer “Yes” or “No” to the question, “Was this translation useful?”. Adobe collects this valuable
-metric and analyzes the compiled data in order to make decisions about content translation. We value your feedback and encourage you to respond.
+コンテンツが自動的に翻訳される場合は、デフォルトまたはユーザー操作で、翻訳に関するフィードバックをアドビに提供するオプションが用意されています。 ページ上部の右青の横棒グラフで、「この翻訳は役に立ちましたか？」という質問に対して「はい」または「いいえ」と答えることができます。 アドビは、この値指標を収集し、コンパイル済みデータを分析して、コンテンツの翻訳に関する意思決定を行います。 アドビは、お客様のフィードバックを大切にし、対応をお勧めします。
 
 ![フィードバック](assets/machine-translation-feedback.png)
 
-In the future, we plan to allow you to provide more extensive feedback, in the form of logging an issue, making suggested improvements, and even requesting
-additional languages. Some of these features are already available on the English pages. In the long run, we believe this will help Adobe improve the user
-experience on these pages.
+今後は、問題の記録、推奨される改善、追加の言語のリクエストの形で、より広範なフィードバックを提供できる予定です。 これらの機能の一部は既に英語のページで入手できます。 アドビは、これが長期的には、これらのページの利用度を向上させるのに役立つと考えています。
 
-![Improve this page](assets/feedback.png)
+![このページの改善](assets/feedback.png)
