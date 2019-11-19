@@ -3,7 +3,7 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ## コラボレーティブドキュメントとは
 
-2019 年、Adobe Experience Cloud のすべての技術ドキュメントおよびイネーブルメントコンテンツはすべて、Github、Markown、および Adobe Experience Cloud ソリューション（Adobe Experience Manager、Analytics、Launch、Target を含む）を活用し、オープンソースの原則に基づいて新しいプラットフォームへと移行中です。
+2019 年、Adobe Experience Cloud のすべての技術ドキュメントおよびイネーブルメントコンテンツはすべて、GitHub、Markown、および Adobe Experience Cloud ソリューション（Adobe Experience Manager、Analytics、Launch、Target を含む）を活用し、オープンソースの原則に基づいて新しいプラットフォームへと移行中です。
 
 このオープンソースモデルにより、コンテンツの品質、および顧客やドキュメントチーム、製品チーム間の通信が向上します。すべてのページで、コンテンツの有用性、問題のログ、および Git プルリクエスト（PR）としてコンテンツの提案事項をコントリビューションできるようになりました。アドビのドキュメントチームは、毎日のコントリビューションと問題を監視し、必要に応じて更新および調整をおこないます。
 
@@ -38,7 +38,7 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 クイック編集は、ドキュメント内の小さな不備や欠落を修正するのに便利です。記事に以下のような編集ボタンが表示されている場合は、閲覧者がその場で修正できます。文書を編集するときには、修正または提案をアドビに提出するためのプルリクエスト（PR）を送信します。その提案をアドビがレビューして承認し、公開します。
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. 同意できる場合は[コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
    アドビの CLA は 1 回提出すれば済みます。
 1. 右列の **`Edit this page`** をクリックして、GitHub の Markdown ソースファイルに移動します。
@@ -69,13 +69,13 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
    > [!NOTE]
    > 問題をログに記録するには、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
 
-   このリンクをクリックすると、Github Issue インターフェイスを使用して、アドビ宛のクイックチケットを登録できます。
+   このリンクをクリックすると、GitHub Issue インターフェイスを使用して、アドビ宛のクイックチケットを登録できます。
 
 1. 問題を含むページの URL が説明フィールドに自動的に挿入されます。タイトルを入力し、問題の簡単な説明を書いてから、「*Submit new issue*」をクリックします。
 
    ![](assets/git_issue_example.png)
 
-問題を送信すると、このページを担当するコンテンツチームに直接通知が送られます。担当チームがコンテンツを更新すると、Github Issues インターフェイス上で登録者に通知されます。問題に進展があるか、問題がクローズされると、電子メールで通知されます。
+問題を送信すると、このページを担当するコンテンツチームに直接通知が送られます。担当チームがコンテンツを更新すると、GitHub Issues インターフェイス上で登録者に通知されます。問題に進展があるか、問題がクローズされると、電子メールで通知されます。
 
 ## GitHub の権限について
 
