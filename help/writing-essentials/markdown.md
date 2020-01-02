@@ -1,11 +1,11 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
 
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 番号付きリストと箇条書きリスト
 
-番号付きリストを作成するには、各行を 1.または 1) で始めます。同じリスト内に両方を混在させないでください。書き方を変えると、そこから新しいリストになります。番号を増やしていく必要はありません。GitHub によって自動的に番号が振られます。
+To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 番号を増やしていく必要はありません。GitHub によって自動的に番号が振られます。
 
 ```markdown
 1. This is step 1.
@@ -73,20 +73,20 @@ This is not \*italicized\* type.
 1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
-箇条書きリストを作成するには、行を ¥* または - または + で始めます。ただし、同じリストで混在させないでください。\* と \+ など、異なる書き方を混在させると、そこから新しいリストになります。
+箇条書きリストを作成するには、行を ¥* または - または + で始めます。ただし、同じリストで混在させないでください。（同じドキュメント内で\*や\+などの箇条書き形式を混在させないでください）。
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 ```
 
 表示：
 
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 
 リストを入れ子にしたり、リスト項目の間にコンテンツを追加することもできます。
 
@@ -97,9 +97,9 @@ This is not \*italicized\* type.
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -132,25 +132,25 @@ This is not \*italicized\* type.
 
 ```markdown
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
 表示：
 
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | 列2 | 列3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 
 単純なテーブルならば、Markdown でも十分に記述できます。しかし、1 つのセルに複数の段落やリストを含むような複雑なテーブルは記述できません。このようなコンテンツを記述したい場合は、見出しとテキストを使用するなど、別の書式を使用することをお勧めします。
 
 テーブルの作成について詳しくは、以下を参照してください。
 
-- GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://help.github.com/articles/organizing-information-with-tables/)
-- [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリケーション
-- [HTML テーブルを Markdown に変換](https://jmalarcon.github.io/markdowntables/)
+* GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://help.github.com/articles/organizing-information-with-tables/)
+* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
+* [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
 
 ### リンク
 
@@ -159,12 +159,12 @@ Markdown のインラインリンクの構文は、ハイパーリンクされ�
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 ```
 
 表示：
 
-[アドビ](https://www.adobe.com) または <https://www.adobe.com>
+[アドビ](https://www.adobe.com)
 
 リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。相対リンクのすべてのオペランド、例えば/（現在のディレクトリ）、../（1 つ上のディレクトリ）、../../（2 つ上のディレクトリ）などを使用できます。
 
@@ -254,12 +254,12 @@ Cat
 
 アドビのほとんどの記事では、段落、リンク、リスト、見出しといった標準の Markdown を使用します。もっとリッチな書式設定をおこなうには、以下のような Markdown 拡張を使用できます。
 
-- メモブロック
-- 埋め込みビデオ
-- ローカライズ禁止
-- コンポーネントプロパティ（見出しに異なる見出し ID を割り当てるなど）
+* メモブロック
+* 埋め込みビデオ
+* ローカライズ禁止
+* コンポーネントプロパティ（見出しに異なる見出し ID を割り当てるなど）
 
-メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（&gt;）を使用します。コンポーネント内にサブコンポーネントを入れる必要がある場合は、サブコンポーネントのセクション用に 1 つ深いレベルのブロッククォートを追加します（&gt;  &gt;）。例えば、ローカライズ禁止セクション内にメモを入れるには、メモのセクションを&gt;    &gt; で始めます。
+メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（>）を使用します。コンポーネント内にサブコンポーネントを入れる必要がある場合は、サブコンポーネントのセクション用に 1 つ深いレベルのブロッククォートを追加します（>  >）。例えば、ローカライズ禁止セクション内にメモを入れるには、メモのセクションを>    > で始めます。
 
 見出しやコードブロックなどの一般的な Markdown 要素には、拡張プロパティが備わっているものもあります。デフォルトプロパティを変更する場合は、コンポーネントの後に中かっこ /{ /} で囲んでパラメーターを追加します。拡張プロパティについては、本文中で説明しています。
 
@@ -267,10 +267,10 @@ Cat
 
 特定のコンテンツに注目を集めるために、4 種類のメモブロックを使用できます。
 
-- `[!NOTE]`
-- `[!CAUTION]`
-- `[!TIP]`
-- `[!IMPORTANT]`
+* `[!NOTE]`
+* `[!CAUTION]`
+* `[!TIP]`
+* `[!IMPORTANT]`
 
 メモブロックは文章の流れを妨げることがあるので、多用しすぎないようにします。メモブロックではコードブロック、画像、リスト、リンクも使用できますが、シンプルで簡潔なメモにするよう心がけてください。
 
@@ -311,19 +311,18 @@ Cat
 
 AEM の「その他の類似項目」コンポーネントは、記事の末尾に表示されます。これは関連リンクを示すコンポーネントです。このコンポーネントは記事のレンダリング時にレベル 2 の見出し（##）と同じ書式で表示されますが、ミニ目次には追加されません。
 
-<!--
 ```markdown
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-Displayed:
+表示：
 
->[!MORE]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
--->
+>[!MORELIKETHIS]
+>* [第一条](https://helpx.adobe.com/support/analytics.html)
+>* [第2条](https://helpx.adobe.com/support/audience-manager.html)
+
 
 ### DNL - ローカライズ禁止 - および UICONTROL
 
@@ -360,13 +359,13 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 アンダースコアを含む代替テキストは、正しくレンダリングされません。例えば、次のような書き方は避けてください。
 
 ```markdown
-![Settings_Step_2] (/assets/settings_step_2.png)
+![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
 ベストプラクティスとして、ファイル名にはアンダースコア（_）ではなく、ハイフン（-）を使用するようにします。
 
 ```markdown
-![Settings-Step-2] (/assets/settings-step-2.png)
+![Settings-Step-2](/assets/settings-step-2.png)
 ```
 
 ### アポストロフィと引用符
@@ -375,10 +374,10 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-- 左（開始）引用符： `&#8220;`
-- 右（終了）引用符：`&#8221;`
-- 右（終了）単一引用符またはアポストロフィ：`&#8217;`
-- 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
+* 左（開始）引用符： `&#8220;`
+* 右（終了）引用符：`&#8221;`
+* 右（終了）単一引用符またはアポストロフィ：`&#8217;`
+* 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
 
 ### 山かっこ
 
@@ -394,5 +393,5 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ### Markdown のリソース
 
-- [Markdown の概要](https://daringfireball.net/projects/markdown/syntax)
-- [GitHub の Markdown の基本](https://help.github.com/articles/markdown-basics/)
+* [Markdown 概要](https://daringfireball.net/projects/markdown/syntax)
+* [GitHub の Markdown の基礎](https://help.github.com/articles/markdown-basics/)
