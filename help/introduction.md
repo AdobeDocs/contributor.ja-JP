@@ -3,7 +3,7 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 ---
@@ -38,10 +38,10 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
 クイック編集は、ドキュメント内の小さな不備や欠落を修正するのに便利です。記事に以下のような編集ボタンが表示されている場合は、閲覧者がその場で修正できます。文書を編集するときには、修正または提案をアドビに提出するためのプルリクエスト（PR）を送信します。その提案をアドビがレビューして承認し、公開します。
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptable.
+1. 同意できる場合は[コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
    アドビの CLA は 1 回提出すれば済みます。
-1. 右列の **`Edit this page`**をクリックして、GitHub の markdown ソースファイルに移動します。
+1. 右列の **`Edit this page`** をクリックして、GitHub の markdown ソースファイルに移動します。
 1. 鉛筆アイコンをクリックして記事を編集します。
 
    > [!NOTE]
@@ -54,7 +54,7 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
    ![変更の提案](assets/submit-pull-request.png)
 
-   >[!NOTE]コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**詳細**」をクリックしてライセンス契約書を開きます。承諾できる場合は、契約に署名します。 次に、プルリクエストを閉じてから開いて続行します。
+   >[!NOTE]コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**詳細**」をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
 
 必要な操作は以上です。ご協力ありがとうございます。提出されたプルリクエストをドキュメントチームメンバーがレビューしてマージします。
 
