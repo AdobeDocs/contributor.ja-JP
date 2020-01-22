@@ -4,7 +4,7 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### 番号付きリストと箇条書きリスト
 
-To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. 番号を増やしていく必要はありません。GitHub によって自動的に番号が振られます。
+箇条書きリストを作成するには、行を `1.` または `1)` で始めます。ただし、同じリストで混在させないでください。番号を指定する必要はありません。GitHub によって自動的に番号が振られます。
 
 ```markdown
 1. This is step 1.
@@ -73,7 +73,7 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
-箇条書きリストを作成するには、行を ¥* または - または + で始めます。ただし、同じリストで混在させないでください。（同じドキュメント内で\*や\+などの箇条書き形式を混在させないでください）。
+箇条書きリストを作成するには、行を \* または - または + で始めます。ただし、同じリストで混在させないでください。（同じドキュメント内で \* や \+ などの箇条書き形式を混在させないでください。）
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
@@ -141,7 +141,7 @@ To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both
 
 | Header | Another header | Yet another header |
 |--- |--- |--- |
-| row 1 | 列2 | 列3 |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 
 単純なテーブルならば、Markdown でも十分に記述できます。しかし、1 つのセルに複数の段落やリストを含むような複雑なテーブルは記述できません。このようなコンテンツを記述したい場合は、見出しとテキストを使用するなど、別の書式を使用することをお勧めします。
@@ -164,9 +164,9 @@ Markdown のインラインリンクの構文は、ハイパーリンクされ�
 
 表示：
 
-[アドビ](https://www.adobe.com)
+[Adobe](https://www.adobe.com)
 
-リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。相対リンクのすべてのオペランド、例えば/（現在のディレクトリ）、../（1 つ上のディレクトリ）、../../（2 つ上のディレクトリ）などを使用できます。
+リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。相対リンクのすべてのオペランド、例えば./（現在のディレクトリ）、../（1 つ上のディレクトリ）、../../（2 つ上のディレクトリ）などを使用できます。
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -320,8 +320,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
->* [第一条](https://helpx.adobe.com/support/analytics.html)
->* [第2条](https://helpx.adobe.com/support/audience-manager.html)
+>* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
+>* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 
 ### DNL - ローカライズ禁止 - および UICONTROL
@@ -330,7 +330,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 ローカライズしてはいけない単語やフレーズがある場合は、その単語やフレーズを `[!DNL]` 拡張で囲います。
 
-ソリューションのユーザーインターフェイスやメニューの要素には、`` 拡張を使用します。
+ソリューションのユーザーインターフェイスやメニューの要素には、 `` 拡張を使用します。
 
 **例：**
 
@@ -374,7 +374,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符： `&#8220;`
+* 左（開始）引用符：`&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -383,7 +383,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。`&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
