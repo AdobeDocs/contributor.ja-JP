@@ -4,8 +4,11 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 100%
 
 ---
 
@@ -105,6 +108,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ This is not \*italicized\* type.
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 
 ### テーブル
@@ -277,22 +282,26 @@ Cat
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 表示：
 
 >[!NOTE]
+>
 >This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 表示：
 
 >[!TIP]
+>
 >This is a standard tip.
 
 ### ビデオ
@@ -374,7 +383,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符：`&#8220;`
+* 左（開始）引用符： `&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -383,7 +392,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。`&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
