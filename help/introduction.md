@@ -3,8 +3,11 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: ht
-source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 100%
 
 ---
 
@@ -44,8 +47,9 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 1. 右列の **`Edit this page`** をクリックして、GitHub の markdown ソースファイルに移動します。
 1. 鉛筆アイコンをクリックして記事を編集します。
 
-   > [!NOTE]
-   > 鉛筆アイコンがグレー表示になっている場合は、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
+   >[!NOTE]
+   >
+   >鉛筆アイコンがグレー表示になっている場合は、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
 
    ![鉛筆アイコンの場所](assets/edit-icon.png)
 
@@ -54,7 +58,9 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
    ![変更の提案](assets/submit-pull-request.png)
 
-   >[!NOTE]コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**詳細**」をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
+   >[!NOTE]
+   >
+   >コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**詳細**」をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
 
 必要な操作は以上です。ご協力ありがとうございます。提出されたプルリクエストをドキュメントチームメンバーがレビューしてマージします。
 
@@ -66,8 +72,9 @@ source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
 
    ![](assets/git_log_issue.png)
 
-   > [!NOTE]
-   > 問題をログに記録するには、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
+   >[!NOTE]
+   >
+   >問題をログに記録するには、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
 
    このリンクをクリックすると、GitHub Issue インターフェイスを使用して、アドビ宛のクイックチケットを登録できます。
 
