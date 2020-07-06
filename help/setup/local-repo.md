@@ -3,8 +3,11 @@ title: ローカル Git リポジトリの設定
 seo-title: アドビのドキュメント用のローカル Git リポジトリの設定
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 seo-description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ## リポジトリを特定
 
-変更案を保存するための読み取り／書き込み権限を取得するには、適切なリポジトリを自身の GitHub アカウントにフォークします。[!UICONTROL Adobe Experience Cloud] ドキュメントは [github.com](https://www.github.com/adobedocs) の複数の異なるリポジトリ内にあります。
+変更案を保存するための読み取り／書き込み権限を取得するには、適切なリポジトリを自身の GitHub アカウントにフォークします。[!UICONTROL Adobe Experience Cloud] ドキュメントは、github.comの複数の異なるリポジトリにあ [ります](https://www.github.com/adobedocs)。
 
 1. 作業対象となるリポジトリがわからない場合は、Web ブラウザーで目的の記事にアクセスします。記事の右上にある **Edit** リンク（鉛筆アイコン）を選択します（Edit リンクが表示されない場合は、そのコンテンツはまだ GitHub 上にありません）。
 
@@ -58,8 +61,9 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
    サイズが大きいリポジトリもあるので、十分なディスク容量のある場所を選択するようにします。
 
-   > [!NOTE]
-   > 別の Git リポジトリのフォルダーの下層にあるローカルフォルダーパスは選択しないでください。Git のクローンフォルダー同士を同じ階層に並べることは問題ありませんが、他の Git フォルダーの下層に配置した場合はファイルのトラッキングでエラーが発生します。
+   >[!NOTE]
+   >
+   >別の Git リポジトリのフォルダーの下層にあるローカルフォルダーパスは選択しないでください。Git のクローンフォルダー同士を同じ階層に並べることは問題ありませんが、他の Git フォルダーの下層に配置した場合はファイルのトラッキングでエラーが発生します。
 
 ## リポジトリのローカルクローンを作成
 
@@ -73,4 +77,4 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. ローカルファイルとフォークされたリポジトリの同期を保つには、GitHub Desktop を使用します。
 
-詳細は、[GitHub Desktop ドキュメント](https://help.github.com/desktop/)を参照してください。
+詳しくは、[GitHub Desktop のドキュメント](https://help.github.com/desktop/)を参照してください。
