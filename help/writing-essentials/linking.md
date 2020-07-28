@@ -1,11 +1,14 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: ドキュメント内でのリンクの使用
 seo-title: Adobe Git/Markdown ドキュメント内でのリンクの使用
 description: この記事では、コンテンツや画像へのリンクを作成するときのガイドラインを説明します。
 seo-description: この記事では、アドビのドキュメント内でコンテンツや画像へのリンクを作成するときのガイドラインを説明します。
-translation-type: ht
-source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
+translation-type: tm+mt
+source-git-commit: 73ec3b8b63769a192ee16bec2720930ea6a9aaed
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 100%
 
 ---
 
@@ -14,8 +17,8 @@ source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 この記事では、ドキュメントページでのハイパーリンクの使用について説明します。リンクをマークダウンに追加することは簡単にできますが、いくつかのルールがあります。リンクとは、ユーザーを同じページ内のコンテンツや、他の隣接するページ、外部のサイトおよび URL にジャンプさせる機能です。
 
-> [!IMPORTANT]
-> ターゲットがセキュアリンクをサポートしている場合は（大部分はそのはずです）、すべてのリンクをセキュアリンクにする必要があります（`https` と `http` の違い）。
+>[!IMPORTANT]
+>ターゲットがセキュアリンクをサポートしている場合は（大部分はそのはずです）、すべてのリンクをセキュアリンクにする必要があります（`https` と `http` の違い）。
 
 ## URL へのリンク
 
