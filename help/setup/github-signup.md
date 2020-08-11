@@ -5,11 +5,11 @@ seo-title: Adobe Experience Cloud ドキュメントに関する GitHub アカ�
 description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 seo-description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
