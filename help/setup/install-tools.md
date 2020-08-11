@@ -4,11 +4,11 @@ title: オーサリングツールのインストール
 seo-title: アドビのドキュメント用の Git および GitHub オーサリングツールのインストール
 description: この記事では、Git／GitHub の操作や Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
 seo-description: この記事では、Git／GitHub の操作やアドビのドキュメントの Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 Git の学習リソースには、以下のものがあります。
 
-* [Git の基礎](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+* [Git の基礎](https://git-scm.com/book/ja/v2/Getting-Started-Git-Basics)
 * [Git および GitHub について](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Git の用語](https://help.github.com/articles/github-glossary)
 
