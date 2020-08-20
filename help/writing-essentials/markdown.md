@@ -4,10 +4,10 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '1377'
+translation-type: tm+mt
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -221,13 +221,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-コードブロックのプロパティを指定すると、行番号を省略したり（デフォルトでオン）、行の折り返しを適用したりできます（デフォルトでオフ）。そのためには、{line-numbers=&quot;no&quot;} および {line-wrap=&quot;yes&quot;} を使用します。これらのプロパティはカスタムの Markdown 拡張です。
-
-\`\`\`javascript {line-numbers=&quot;no&quot;}
-function test() {
-console.log(&quot;notice the blank line before this function?&quot;);
-\`\`\`
-
 ### 定義リスト
 
 定義リストは、AEM の定義リストコンポーネントをサポートする Markdown 拡張です。定義リストは、用語とその定義で構成されます。
@@ -383,7 +376,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符：`&#8220;`
+* 左（開始）引用符： `&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -392,7 +385,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。`&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
