@@ -4,10 +4,10 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: 27ba164070996d192c84493d83232484d2badb28
-workflow-type: ht
-source-wordcount: '1329'
+translation-type: tm+mt
+source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
+workflow-type: tm+mt
+source-wordcount: '1322'
 ht-degree: 100%
 
 ---
@@ -302,12 +302,12 @@ Cat
 埋め込みビデオは Markdown でネイティブにレンダリングされませんが、Markdown 拡張として使用できます。
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 表示：
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### その他の類似項目
 
