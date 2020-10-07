@@ -4,9 +4,9 @@ title: Markdown を使用してドキュメントを記述する方法
 seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -307,7 +307,7 @@ Cat
 
 表示：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=jpn)
 
 ### その他の類似項目
 
@@ -322,8 +322,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/jp/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 
 ### DNL - ローカライズ禁止 - および UICONTROL
