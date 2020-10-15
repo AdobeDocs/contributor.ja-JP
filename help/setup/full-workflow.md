@@ -4,9 +4,9 @@ title: 大きな変更をする際の GitHub コントリビューションワ�
 seo-title: アドビのドキュメントに大きな変更を加える際の GitHub コントリビューションワークフロー
 description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
 seo-description: この記事では、アドビのドキュメントに大きな変更を加える際のコントリビューターワークフローの使い方を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
 ht-degree: 100%
 
