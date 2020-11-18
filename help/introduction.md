@@ -3,11 +3,11 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,10 @@ ht-degree: 100%
 1. 同意できる場合は[コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
    アドビの CLA は 1 回提出すれば済みます。
-1. 右列の **`Edit this page`** をクリックして、GitHub の markdown ソースファイルに移動します。
+1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+
+   ![このページの編集アイコン](/help/assets/git_edit.png)
+
 1. 鉛筆アイコンをクリックして記事を編集します。
 
    >[!NOTE]
@@ -68,13 +71,13 @@ ht-degree: 100%
 
 コンテンツの一部についての問題を指摘するもう 1 つの方法は、その問題をログに記録することです。
 
-1. コンテンツの一部に問題がある場合は、ページの右下にある「`Log an Issue`」リンクをクリックします。以下の図を参照してください。
+1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >問題をログに記録するには、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
+   >問題をログインするには、GitHubアカウントにログインするか、新しいアカウントを作成する必要があります。
 
    このリンクをクリックすると、GitHub Issue インターフェイスを使用して、アドビ宛のクイックチケットを登録できます。
 
