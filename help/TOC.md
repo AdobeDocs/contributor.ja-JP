@@ -1,19 +1,12 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.ja-JP
 cloud: experience-cloud
 index: true
-user-guide-title: アドビコントリビューターガイド
-user-guide-url: https://www.adobe.com
-solution-title: Experience Cloud
-solution-hub-url: https://helpx.adobe.com/jp/support/experience-cloud.html
-solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Experience League
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: チュートリアル
-tutorials-url: https://helpx.adobe.com/jp/experience-cloud/tutorials.html
-test-meta: テスト
-translation-type: ht
-source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 100%
 
 ---
 
