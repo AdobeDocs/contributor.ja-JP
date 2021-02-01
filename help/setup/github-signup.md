@@ -1,14 +1,10 @@
 ---
-lastModified: 2018-10-15T00:00:00Z
 title: GitHub アカウントのセットアップ手順
-seo-title: Adobe Experience Cloud ドキュメントに関する GitHub アカウントのセットアップ手順
 description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
-seo-description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
-index: true
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '235'
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
