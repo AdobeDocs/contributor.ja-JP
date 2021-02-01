@@ -1,12 +1,10 @@
 ---
 title: ローカル Git リポジトリの設定
-seo-title: アドビのドキュメント用のローカル Git リポジトリの設定
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
-seo-description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
-translation-type: ht
-source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
-workflow-type: ht
-source-wordcount: '682'
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
