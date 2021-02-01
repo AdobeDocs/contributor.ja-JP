@@ -1,10 +1,11 @@
 ---
 title: Adobe Experience Cloud 製品ドキュメントの言語サポート
-seo-title: Adobe Experience Cloud 製品ドキュメントの言語サポート
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
-seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: ht
-source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 100%
 
 ---
 
@@ -29,13 +30,15 @@ Adobe Experience Cloud 製品ドキュメントは、ほとんどの言語で表
 
    ![翻訳されたページ](assets/french.png)
 
-   言語バージョンがまだ利用できない場合、アドビはコンテンツを自動翻訳できます。アドビの自動翻訳サービスでは、ページ上部の青いフィールドにメッセージが表示されます。
+<!--
+   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
 
-   ![翻訳メッセージ](assets/machine-translation-message.png)
+   ![Translation message](assets/machine-translation-message.png)
 
-   コンテンツは選択した言語で自動的にレンダリングされるか、そうでない場合はリンクをクリックして翻訳を開始できます。（このシナリオは、ハイパーリンクをクリックして翻訳ページから英語のソースに戻ると発生する場合があります。翻訳されたページをオンデマンドで表示するオプションが提供されます。）いつでも英語のソースに戻すことができます。
+   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
 
-   時折、翻訳が完了する前に、英語のソースコンテンツが最近更新および公開されることがあります。ドロップダウンメニューで言語をクリックすると、ページの上部にある水色の水平バーに、ページが以前のバージョンから自動翻訳されたものであり、更新されたコンテンツが間もなく利用可能になるという通知が表示されます。希望する場合は、新しいブラウザーウィンドウに最新の英語ソースコンテンツを表示することを選択できます。
+   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
+-->
 
 ## 自動翻訳を使用する理由
 
@@ -63,7 +66,9 @@ Adobe Experience Cloud 製品ドキュメントは、ほとんどの言語で表
 
 将来的には、問題のログ記録、提案された改善の実施、さらに追加の言語のリクエストなどの形で、より広範なフィードバックを提供できるようにする予定です。これらの機能の一部は、英語のページで既に利用可能になっています。アドビでは、長い目で見れば、この機能が、これらのページでのユーザーエクスペリエンスを向上させるのに役立つと考えています。
 
-![このページを改善する](assets/feedback.png)
+<!--
+![Improve this page](assets/feedback.png)
+-->
 
 ### 翻訳の免責事項
 
