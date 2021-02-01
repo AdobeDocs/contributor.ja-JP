@@ -1,14 +1,11 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: Markdown を使用してドキュメントを記述する方法
-seo-title: Markdown を使用してアドビのドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-seo-description: この記事では、アドビドキュメントの記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +23,11 @@ ht-degree: 100%
 見出しを作成するには、行の先頭でハッシュマーク（#）を使用します。
 
 ```
-   # This is level 1 (article title)
-   ## This is level 2
-   ### This is level 3
-   #### This is level 4
-   ##### This is level 5
+# This is level 1 (article title)
+## This is level 2
+### This is level 3
+#### This is level 4
+##### This is level 5
 ```
 
 ### 基本的なテキスト
@@ -40,18 +37,10 @@ Markdown では、段落を示す特別な構文はありません。
 テキストを&#x200B;**太字**&#x200B;にするには、2 つのアスタリスクで囲みます。テキストを&#x200B;*斜体*&#x200B;にするには、1 つのアスタリスクで囲みます。
 
 ```markdown
-    This text is **bold**.
-    This text is *italic*.
-    This text is both ***bold and italic***.
+   This text is **bold**.
+   This text is *italic*.
+   This text is both ***bold and italic***.
 ```
-
-<!--
-To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
-
-```markdown
-This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
-```
--->
 
 Markdown の書式設定文字を無視するには、その直前で \ を使用します。
 
@@ -75,9 +64,7 @@ This is not \*italicized\* type.
 1. This is the next step.
 1. This is yet another step, the third.
 
-<!-- markdownlint-disable MD037 -->
 箇条書きリストを作成するには、行を \* または - または + で始めます。ただし、同じリストで混在させないでください。（同じドキュメント内で \* や \+ などの箇条書き形式を混在させないでください。）
-<!-- markdownlint-disable MD037 -->
 
 ```markdown
 * First item in an unordered list.
@@ -221,33 +208,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-### 定義リスト
-
-定義リストは、AEM の定義リストコンポーネントをサポートする Markdown 拡張です。定義リストは、用語とその定義で構成されます。
-
-<!--
-
-```markdown
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
-```
-
-Displayed:
-
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
---->
-
-#### コメント
-
-コメントは、公開されるヘルプ記事には表示されません。ただし、ユーザーが表示および編集できる、公開用 Markdown ファイル内にはコメントが表示されます。
-
 ## カスタムの Markdown 拡張
 
 アドビのほとんどの記事では、段落、リンク、リスト、見出しといった標準の Markdown を使用します。もっとリッチな書式設定をおこなうには、以下のような Markdown 拡張を使用できます。
@@ -263,12 +223,16 @@ Cat
 
 ### メモブロック
 
-特定のコンテンツに注目を集めるために、4 種類のメモブロックを使用できます。
+特定の内容に注意を向けるために、次のタイプの注記ブロックから選択できます。
 
 * `[!NOTE]`
-* `[!CAUTION]`
 * `[!TIP]`
 * `[!IMPORTANT]`
+* `[!CAUTION]`
+* `[!WARNING]`
+* `[!ADMINISTRATION]`
+* `[!AVAILABILITY]`
+* `[!PREREQUISITES]`
 
 メモブロックは文章の流れを妨げることがあるので、多用しすぎないようにします。メモブロックではコードブロック、画像、リスト、リンクも使用できますが、シンプルで簡潔なメモにするよう心がけてください。
 
@@ -307,7 +271,7 @@ Cat
 
 表示：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### その他の類似項目
 
@@ -385,7 +349,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。  `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
