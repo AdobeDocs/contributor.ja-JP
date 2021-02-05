@@ -1,9 +1,9 @@
 ---
 title: オーサリングツールのインストール
 description: この記事では、Git／GitHub の操作や Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
