@@ -1,9 +1,9 @@
 ---
 title: GitHub アカウントのセットアップ手順
 description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
