@@ -4,9 +4,9 @@ title: ドキュメント内でのリンクの使用
 seo-title: Adobe Git/Markdown ドキュメント内でのリンクの使用
 description: この記事では、コンテンツや画像へのリンクを作成するときのガイドラインを説明します。
 seo-description: この記事では、アドビのドキュメント内でコンテンツや画像へのリンクを作成するときのガイドラインを説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
 ht-degree: 100%
 
