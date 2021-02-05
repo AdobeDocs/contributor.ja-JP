@@ -3,11 +3,11 @@ title: アドビドキュメントのコントリビューターガイド
 seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
 seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ## コラボレーティブドキュメントとは
 
-Adobe Experience Cloudおよびその他のAdobeエンタープライズ製品の技術ドキュメントおよび有効化コンテンツが、新しいプラットフォームに移行しました。 この新しいプラットフォームは、Github、Markdown、およびAdobe Experience Cloudの各ソリューションを利用するオープンソースの原則に基づいています。
+Adobe Experience Cloud およびその他の Adobe エンタープライズ製品の技術ドキュメントおよびイネーブルメントに関するコンテンツが、新しいプラットフォームに移行されました。 この新しいプラットフォームは、Github、Markdown、Adobe Experience Cloud の各ソリューションを利用し、オープンソースの原則に基づいています。
 
 このオープンソースモデルにより、コンテンツの品質、および顧客やドキュメントチーム、製品チーム間の通信が向上します。すべてのページで、コンテンツの有用性、問題のログ、および Git プルリクエスト（PR）としてコンテンツの提案事項をコントリビューションできるようになりました。アドビのドキュメントチームは、毎日のコントリビューションと問題を監視し、必要に応じて更新および調整をおこないます。
 
