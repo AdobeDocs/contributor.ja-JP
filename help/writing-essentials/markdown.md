@@ -1,11 +1,11 @@
 ---
 title: Markdown を使用してドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ function test() {
 
 ### メモブロック
 
-特定の内容に注意を向けるために、次のタイプの注記ブロックから選択できます。
+特定のコンテンツに注目を集めるために、これらのタイプのメモブロックを使用できます。
 
 * `[!NOTE]`
 * `[!TIP]`
@@ -271,7 +271,7 @@ function test() {
 
 表示：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=jpn)
 
 ### その他の類似項目
 
@@ -349,7 +349,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。  `&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
