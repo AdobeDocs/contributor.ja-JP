@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Cloud 製品ドキュメントの言語サポート
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud 製品ドキュメントは、ほとんどの言語で表
 
    ![翻訳されたページ](assets/french.png)
 
-   言語バージョンがまだ利用できない場合、アドビはコンテンツを自動翻訳できます。Adobeの自動翻訳サービスでは、右側のナビゲーションの上部に次のメッセージが表示されます。
+   言語バージョンがまだ利用できない場合、アドビはコンテンツを自動翻訳できます。Adobe の自動翻訳サービスでは、右側のナビゲーションの上部に次のメッセージが表示されます。
 
    ![翻訳メッセージ](assets/machine-translation-message.png)
 
