@@ -1,11 +1,11 @@
 ---
 title: Markdown を使用してドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 76%
 
 ---
 
@@ -176,6 +176,8 @@ See [Overview example article](../../overview.md)
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
+**注意：ローカライズ** しない画像の場合は、assetsフォルダーに別の `do-not-localize` フォルダーを作成します。通常、テキストのない画像や、サンプルコンテンツのみを含む画像が配置されます。 これにより、assetsフォルダーから「ノイズ」が除去され、質問の数が減ります。
+
 ### コードブロック
 
 コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -271,7 +273,7 @@ function test() {
 
 表示：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### その他の類似項目
 
@@ -290,32 +292,44 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 >* [Article 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 
-### DNL - ローカライズ禁止 - および UICONTROL
+### UICONTROLおよびDNL
 
-場合によっては、記事内の特定セクションを英語のままにするよう指定しなければならないことがあります。単語、フレーズ、その他の要素を翻訳システム向けに宣言しておくと、語彙を管理する機能を構築できます。
+Markdownヘルプのすべてのコンテンツは、最初は機械翻訳を使用してローカライズされます。 ヘルプがローカライズされていない場合は、機械翻訳を保持します。 ただし、ヘルプコンテンツが過去にローカライズされた場合は、機械翻訳済みのコンテンツが、人による翻訳の過程にある間、プレースホルダーとして機能します。
 
-ローカライズしてはいけない単語やフレーズがある場合は、その単語やフレーズを `[!DNL]` 拡張で囲います。
+**``**
 
-ソリューションのユーザーインターフェイスやメニューの要素には、 `` 拡張を使用します。
+機械翻訳中に、``でタグ付けされた項目がローカライゼーションデータベースと比較され、適切な翻訳が行われます。 UIがローカライズされていない場合、このタグを使用すると、特定の言語(つまり、 Analyticsの参照（イタリア語）。
 
 **例：**
 
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. **[!UICONTROL Run Process]**&#x200B;画面に移動します。
+1. **[!UICONTROL File > Print > Print All]**&#x200B;を選択して、サーバー上のすべてのファイルを印刷します。
+1. [!UICONTROL Processing Rules]ダイアログボックスが表示されます。
 
 **ソース：**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**例**
+**注意：3つ** のタグ付けオプションのうち、高品質を実現するにはこれが最も重要で、必須です。
 
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+**`[!DNL]`**
+
+原則として、「翻訳しない」リストを使用して、機械翻訳エンジンに英語で何を保つべきかを伝えます。 最も一般的な商品は、「Adobe Analytics」、「Adobe Campaign」、「Adobe Target」などの長いソリューション名です。 ただし、英語を使わなければならない場合もあります。これは、該当する用語が特定の方法や一般的な方法で使用される場合があるからです。 この最も明白な例は、「Analytics」、「キャンペーン」、「ターゲット」などのソリューションの短い名前です。 これらが一般的な用語ではなく、ソリューション名であることをマシンが理解するのは難しいことです。 また、このタグは、常に英語で表示されるサードパーティの名前や機能、または英語で表示する必要のあるフレーズや文など短いセクションにも使用できます。
+
+**例：**
+
+* [!DNL Target]を使うと、最適な
+* Adobe Analyticsは、サイトの解析データを収集するための強力なソリューションです。 [!DNL Analytics] では、レポートを使用して、そのデータを簡単に要約することもできます。
 
 **ソース：**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## 注意事項とトラブルシューティング
@@ -349,7 +363,7 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。  `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
