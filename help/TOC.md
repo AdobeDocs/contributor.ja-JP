@@ -2,16 +2,16 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.ja-JP
 cloud: Adobe
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '69'
+ht-degree: 100%
 
 ---
 
 
-# アドビドキュメントのコントリビューターガイド{#contributor-guide}
+# アドビドキュメントのコントリビューターガイド {#contributor-guide}
 
 + [はじめに](introduction.md)
 + GitHub の設定 {#setup}
