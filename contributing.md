@@ -1,8 +1,14 @@
 ---
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: ht
+title: コントリビューション
+description: AdobeDocsドキュメントへの貢献に関する情報です。
+translation-type: tm+mt
+source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 # コントリビューション
 
 コントリビューションへのご協力をありがとうございます。
@@ -15,7 +21,7 @@ translation-type: ht
 
 ## コントリビューターガイドドキュメント
 
-[コントリビューターガイドドキュメント](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+「[コントリビューターガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
 
 ## 質問がある場合
 
@@ -23,11 +29,11 @@ translation-type: ht
 
 ## コントリビューター使用許諾契約
 
-このプロジェクトに対してサードパーティがおこなうコントリビューションには、署名されたコントリビューター使用許諾契約（CLA）が関連付けられている必要があります。この使用許諾契約は、アドビに対してそのコントリビューションをプロジェクトの一部として再配布する権限を認めるものです。[CLA に署名](http://opensource.adobe.com/cla.html)してください。アドビの CLA は 1 回提出すれば済みます。以前に提出したことがある場合は、再提出する必要はありません。
+このプロジェクトに対してサードパーティがおこなうコントリビューションには、署名されたコントリビューター使用許諾契約（CLA）が関連付けられている必要があります。この使用許諾契約は、アドビに対してそのコントリビューションをプロジェクトの一部として再配布する権限を認めるものです。[アドビの CLA に署名してください。](http://opensource.adobe.com/cla.html)アドビの CLA は 1 回提出すれば済みます。以前に提出したことがある場合は、再提出する必要はありません。
 
 ## コードのレビュー
 
-提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/articles/about-pull-requests/)を参照してください。
+提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
