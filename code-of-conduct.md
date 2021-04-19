@@ -1,8 +1,14 @@
 ---
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
-translation-type: ht
+title: アドビ行動規範
+description: 'アドビ行動規範 '
+translation-type: tm+mt
+source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 # アドビ行動規範
 
 ## アドビの誓約
@@ -19,10 +25,10 @@ translation-type: ht
 * コミュニティにとって最善なことに注力する
 * 他のコミュニティメンバーに対して共感を示す
 
-参加者による許容されない行動の例を以下に示します。
+参加者による容認できない行為の例を次に示します。
 
-* 性的な発言や画像を使用すること、また性的関心を向けたり、性的な誘惑によって迷惑をかけること
-* 挑発、侮辱的／軽蔑的コメント、個人的攻撃や政治的攻撃
+* 性的な表現またはイメージの使用および不快な性的注目または性的誘惑
+* 挑発的、侮辱的または軽蔑的コメント、および個人攻撃または政治的な攻撃
 * 公的または個人的なハラスメント
 * 明示的な許可のない他者の個人情報の公開（実際の住所や電子アドレスなど）
 * 職場において合理的に不適切だと考えられるその他の行為
@@ -39,11 +45,11 @@ translation-type: ht
 
 ## 実施
 
-虐待的、嫌がらせまたはその他の容認できない行為の事例については、プロジェクトチーム（Grp-opensourceoffice@adobe.com）にお問い合わせください。すべての申し立ては、確認および調査され、その状況に対して必要で適切だと思われる対応が取られます。プロジェクトチームは、問題の報告者に関する機密を保持する義務があります。具体的な実施ポリシーの詳細については、個別に投稿されます。
+虐待、嫌がらせまたはその他の容認できない行為の事例については、プロジェクトチーム（Grp-opensourceoffice@adobe.com）にお問い合わせください。すべての申し立ては、確認および調査され、その状況に対して必要で適切だと思われる対応が取られます。プロジェクトチームは、問題の報告者に関する機密を保持する義務があります。
+具体的な実施ポリシーの詳細については、個別に投稿されます。
 
 行動規範に誠実に従わない、または行動規範を誠意をもって施行しないプロジェクトメンテナーに対しては、プロジェクトを統率する他のメンバーにより決定された一時的または永久的な措置が講じられる場合があります。
 
 ## 帰属
 
-本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org)、バージョン 1.4 を元に作成されました。
-[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+この行為規範は、[Contributor Covenant](https://contributor-covenant.org), version 1.4（[https://contributor-covenant.org/version/1/4）に基づいています。](https://contributor-covenant.org/version/1/4/)
