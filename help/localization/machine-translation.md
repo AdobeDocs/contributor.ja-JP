@@ -1,14 +1,14 @@
 ---
 title: Adobe Experience Cloud 製品ドキュメントの言語サポート
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
+exl-id: 6ba93c9f-15c3-47ba-aa41-d226f5d4e435
 translation-type: ht
-source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: ht
 source-wordcount: '828'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Cloud 製品ドキュメントの言語サポート
 
