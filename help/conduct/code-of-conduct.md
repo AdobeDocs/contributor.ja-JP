@@ -1,8 +1,13 @@
 ---
-source-git-commit: cbffbc356b4d5a03f93ab319a932a6c4ef979b3e
+exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 translation-type: ht
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: ht
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
+
 # アドビ行動規範
 
 ## アドビの誓約
@@ -39,11 +44,11 @@ translation-type: ht
 
 ## 実施
 
-虐待的、嫌がらせまたはその他の容認できない行為の事例については、プロジェクトチーム（Grp-opensourceoffice@adobe.com）にお問い合わせください。すべての申し立ては、確認および調査され、その状況に対して必要で適切だと思われる対応が取られます。プロジェクトチームは、問題の報告者に関する機密を保持する義務があります。具体的な実施ポリシーの詳細については、個別に投稿されます。
+虐待、嫌がらせまたはその他の容認できない行為の事例については、プロジェクトチーム（Grp-opensourceoffice@adobe.com）にお問い合わせください。すべての申し立ては、確認および調査され、その状況に対して必要で適切だと思われる対応が取られます。プロジェクトチームは、問題の報告者に関する機密を保持する義務があります。
+具体的な実施ポリシーの詳細については、個別に投稿されます。
 
 行動規範に誠実に従わない、または行動規範を誠意をもって施行しないプロジェクトメンテナーに対しては、プロジェクトを統率する他のメンバーにより決定された一時的または永久的な措置が講じられる場合があります。
 
 ## 帰属
 
-本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org)、バージョン 1.4 を元に作成されました。
-[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org) バージョン 1.4 をもとに作成されました。[https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct)
