@@ -1,8 +1,13 @@
 ---
-source-git-commit: 40fdaf609e770f3084cbdc40ff685c27d476510c
+exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 translation-type: ht
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: ht
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
+
 # コントリビューション
 
 コントリビューションへのご協力をありがとうございます。
@@ -19,11 +24,11 @@ translation-type: ht
 
 ## コントリビューター使用許諾契約
 
-このプロジェクトに対してサードパーティがおこなうコントリビューションには、署名されたコントリビューター使用許諾契約（CLA）が関連付けられている必要があります。この使用許諾契約は、アドビに対してそのコントリビューションをプロジェクトの一部として再配布する権限を認めるものです。[CLA に署名](http://opensource.adobe.com/cla.html)してください。アドビの CLA は 1 回提出すれば済みます。以前に提出したことがある場合は、再提出する必要はありません。
+このプロジェクトに対してサードパーティがおこなうコントリビューションには、署名されたコントリビューター使用許諾契約（CLA）が関連付けられている必要があります。この使用許諾契約は、アドビに対してそのコントリビューションをプロジェクトの一部として再配布する権限を認めるものです。[アドビの CLA に署名してください。](http://opensource.adobe.com/cla.html)アドビの CLA は 1 回提出すれば済みます。以前に提出したことがある場合は、再提出する必要はありません。
 
 ## コードのレビュー
 
-提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/articles/about-pull-requests/)を参照してください。
+提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
