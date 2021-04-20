@@ -1,14 +1,17 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: アドビドキュメントの記述ガイドライン
 seo-title: アドビドキュメントの記述ガイドライン
 description: この記事には、アドビのドキュメントへのコントリビューションに関する重要なガイダンスが含まれています。
 seo-description: この記事には、アドビのドキュメントへのコントリビューションに関する重要なガイダンスが含まれています。
+exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
-
 
 # アドビドキュメントの記述ガイドライン
 
