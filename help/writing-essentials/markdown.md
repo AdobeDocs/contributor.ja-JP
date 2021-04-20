@@ -1,14 +1,14 @@
 ---
 title: Markdown を使用してドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 translation-type: ht
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: ht
 source-wordcount: '1491'
 ht-degree: 100%
 
 ---
-
 
 # Markdown を使用した技術ドキュメントの書き方
 
@@ -140,7 +140,7 @@ This is not \*italicized\* type.
 
 テーブルの作成について詳しくは、以下を参照してください。
 
-* GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://help.github.com/articles/organizing-information-with-tables/)
+* GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://docs.github.com/ja/github/writing-on-github/organizing-information-with-tables)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
 * [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
 
@@ -174,7 +174,7 @@ See [Overview example article](../../overview.md)
 
 表示：
 
-![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
+![Adobe Logo ](assets/no-localize/adobe_standard_logo.png " Hover text ")
 
 **注意：**&#x200B;ローカライズしない画像の場合は、アセットフォルダーに別の `do-not-localize` フォルダーを作成します。通常は、テキストのない画像やサンプルコンテンツのみを含む画像が配置されます。これで、アセットフォルダーから「ノイズ」が除去され、質問の数が減ります。
 
@@ -374,4 +374,4 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 ### Markdown のリソース
 
 * [Markdown 概要](https://daringfireball.net/projects/markdown/syntax)
-* [GitHub の Markdown の基礎](https://help.github.com/articles/markdown-basics/)
+* [GitHub の Markdown の基礎](https://docs.github.com/ja/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
