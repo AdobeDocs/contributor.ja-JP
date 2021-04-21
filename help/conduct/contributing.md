@@ -1,10 +1,12 @@
 ---
+title: コントリビューション
+description: このプロジェクトに貢献する際は、次のガイドラインに従ってください。
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
