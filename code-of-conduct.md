@@ -1,11 +1,11 @@
 ---
 title: アドビ行動規範
 description: 'アドビ行動規範 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '439'
+ht-degree: 100%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 帰属
 
-この行為規範は、[Contributor Covenant](https://contributor-covenant.org), version 1.4（[https://contributor-covenant.org/version/1/4）に基づいています。](https://contributor-covenant.org/version/1/4/)
+この行為規範は、[Contributor Covenant](https://contributor-covenant.org), version 1.4（[https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct)）に基づいています。
