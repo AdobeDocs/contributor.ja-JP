@@ -1,11 +1,11 @@
 ---
 title: コントリビューション
-description: AdobeDocsドキュメントへの貢献に関する情報です。
-translation-type: tm+mt
+description: AdobeDocs ドキュメントへの投稿に関する情報です。
+translation-type: ht
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '303'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## コントリビューターガイドドキュメント
 
-「[コントリビューターガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)」を参照してください。
+「[コントリビューターガイド](https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html)」を参照してください。
 
 ## 質問がある場合
 
