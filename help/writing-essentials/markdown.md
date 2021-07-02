@@ -2,11 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '1491'
-ht-degree: 100%
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
+workflow-type: tm+mt
+source-wordcount: '1504'
+ht-degree: 96%
 
 ---
 
@@ -182,7 +181,7 @@ See [Overview example article](../../overview.md)
 
 コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
 
-段落内にインラインコードスタイルを作成するには、バッククォート（\`）を使用します。複数行から成る独立したコードブロックを作成するには、コードブロックの前後に 3 文字のバッククォート（\`\`\`）を追加します（Markdown では「囲みコードブロック（fenced code block）」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例えば、\`\`\`javascript のようにします。
+バッククォート（&amp;amp；グレーブ；）を使用する)をクリックして、段落内にインラインコードスタイルを作成します。 特定の複数行コードブロックを作成するには、コードブロック(AEMの「囲みコードブロック」と呼ばれる)の前後に3つのバッククォート(&amp;grave;&amp;grave;grave;)を追加します。 囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：&amp;grave;&amp;grave;&amp;grave;javascript
 
 例：
 
@@ -195,15 +194,6 @@ This is `inline code` within a paragraph of text.
 This is `inline code` within a paragraph of text.
 
 次に囲みコードブロックの例を示します。
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-表示：
 
 ```javascript
 function test() {
@@ -354,7 +344,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符： `&#8220;`
+* 左（開始）引用符：  `&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -363,7 +353,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。  `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
