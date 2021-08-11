@@ -1,10 +1,11 @@
 ---
+title: アドビ行動規範
+description: アドビ行動規範 問題の報告と編集の変更の送信
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -51,4 +52,4 @@ ht-degree: 100%
 
 ## 帰属
 
-本行動規範は、次のサイトにある [Contributor Covenant](https://contributor-covenant.org) バージョン 1.4 をもとに作成されました。[https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct)
+この行為規範は、[Contributor Covenant](https://contributor-covenant.org), version 1.4（[https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct](https://www.contributor-covenant.org/ja/version/1/4/code-of-conduct)）に基づいています。
