@@ -1,11 +1,11 @@
 ---
 title: アドビ行動規範
-description: アドビ行動規範 問題の報告と編集の変更の送信
+description: アドビ行動規範問題の報告と編集の変更の送信について
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
