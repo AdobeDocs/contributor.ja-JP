@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: この記事では、記事を書くときに使用する Markdown 言語の基礎とリファレンス情報を紹介します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
-workflow-type: ht
-source-wordcount: '1504'
-ht-degree: 100%
+source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 97%
 
 ---
 
@@ -181,7 +181,7 @@ See [Overview example article](../../overview.md)
 
 コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
 
-段落内にインラインコードスタイルを作成するには、バッククォート（ &amp;grave; ）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（&amp;grave;&amp;grave;&amp;grave;）を追加します（Markdown では「囲いコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：&amp;grave;&amp;grave;&amp;grave;javascript
+バッククォート (`` ` ``) をクリックして、段落内にインラインコードスタイルを作成します。 特定の複数行コードブロックを作成するには、3 つのバッククォート (` ``` `) の前後にあるコードブロック (Markdown では「囲みコードブロック」と呼ばれ、AEMでは単に「コードブロック」コンポーネントと呼ばれます ) 囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
 例：
 
