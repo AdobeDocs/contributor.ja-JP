@@ -1,32 +1,33 @@
 ---
 title: アドビドキュメントのコントリビューターガイド
-seo-title: Adobe Experience Cloud 技術ドキュメントのコントリビューターガイドの概要
+seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
-seo-description: このガイドでは、[!UICONTROL Adobe Experience Cloud] 技術ドキュメントへのコントリビューションの方法を説明します。
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 87%
 
 ---
 
-# アドビドキュメントのコントリビューターガイドの概要
+# Adobeドキュメントのコントリビューターガイド
 
-## コラボレーティブドキュメントとは
+このガイドでは、Experience Leagueに関する Enterprise ヘルプにAdobeを投稿する方法を説明します。
 
-Adobe Experience Cloud およびその他の Adobe エンタープライズ製品の技術ドキュメントおよびイネーブルメントに関するコンテンツが、新しいプラットフォームに移行されました。 この新しいプラットフォームは、Github、Markdown、Adobe Experience Cloud の各ソリューションを利用し、オープンソースの原則に基づいています。
+## コラボレーションドキュメントとは
 
-このオープンソースモデルにより、コンテンツの品質、および顧客やドキュメントチーム、製品チーム間の通信が向上します。すべてのページで、コンテンツの有用性、問題のログ、および Git プルリクエスト（PR）としてコンテンツの提案事項をコントリビューションできるようになりました。アドビのドキュメントチームは、毎日のコントリビューションと問題を監視し、必要に応じて更新および調整をおこないます。
+Adobe Experience Cloudやその他のAdobeエンタープライズ製品の技術ドキュメントやイネーブルメントコンテンツは、GitHub、Markdown、Adobe Experience Cloudの各ソリューションを利用するオープンソースの原則に基づいています。
 
-## コラボレーティブドキュメントの操作
+このオープンソースモデルにより、顧客、ドキュメントチーム、製品チーム間のコンテンツ品質と通信が向上します。 すべてのページで、コンテンツの有用性、問題のログ、および Git プルリクエスト（PR）としてコンテンツの提案事項をコントリビューションできるようになりました。アドビのドキュメントチームは、毎日のコントリビューションと問題を監視し、必要に応じて更新および調整をおこないます。
+
+## コラボレーションドキュメントの操作
 
 従業員、パートナー、顧客、または見込み客を含め、この資料の利用者は、このドキュメントにコントリビューションする方法を、いくつかのシンプルな方法から選択できます。
 
-* ページの有用性を評価する
-* 特定のページに対する問題のログ
-* アセットやコードのサンプルを使用し、クイック編集を送信して記事全体をオーサリングすることもできます
+* ページの有用性を評価
+* 特定のページに関する問題のログ
+* アセットとコードサンプルを含むクイック編集を送信して、記事全体をオーサリングします
 
 このガイドでは、操作や、この資料セットにコントリビューションする際に必要なすべての事柄について説明します。
 
