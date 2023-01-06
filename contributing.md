@@ -1,10 +1,9 @@
 ---
 title: コントリビューション
 description: AdobeDocs ドキュメントへの投稿に関する情報です。
-translation-type: ht
-source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: ht
-source-wordcount: '303'
+source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -21,11 +20,11 @@ ht-degree: 100%
 
 ## コントリビューターガイドドキュメント
 
-「[コントリビューターガイド](https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html)」を参照してください。
+「[コントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)」を参照してください。
 
 ## 質問がある場合
 
-まずイシューを登録します。このプロジェクトの既存のコミッターが、必要に応じて、イシュースレッド内でプロジェクトの方向性やイシューの解決策について合意が形成されるように尽力します。
+まずイシューを登録してください。このプロジェクトの既存のコミッターが、必要に応じて、イシュースレッド内でプロジェクトの方向性やイシューの解決策について合意が形成されるように尽力します。
 
 ## コントリビューター使用許諾契約
 
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 ## コードのレビュー
 
-提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)を参照してください。
+提案はすべてプルリクエストの形式でおこなわれ、プロジェクトのコミッターによってレビューされる必要があります。プルリクエストの送信方法については、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/ja/articles/about-pull-requests/)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -46,4 +45,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題はこのイシュートラッカーに報告しないでください。代わりに、[セキュリティ専門家に問題を報告します。](https://helpx.adobe.com/jp/security/alertus.html)
+セキュリティ上の問題は、このイシュートラッカーに報告せずに、[セキュリティ専門家に報告](https://helpx.adobe.com/jp/security/alertus.html)
