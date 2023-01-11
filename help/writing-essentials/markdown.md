@@ -1,11 +1,11 @@
 ---
 title: Markdown を使用してドキュメントを記述する方法
-description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を見つけます。
+description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
