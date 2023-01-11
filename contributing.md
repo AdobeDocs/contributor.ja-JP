@@ -2,8 +2,8 @@
 title: コントリビューション
 description: AdobeDocs ドキュメントへの投稿に関する情報です。
 source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
-workflow-type: tm+mt
-source-wordcount: '301'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
