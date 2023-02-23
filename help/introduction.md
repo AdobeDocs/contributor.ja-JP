@@ -1,17 +1,17 @@
 ---
-title: Adobeドキュメントのコントリビューターガイド
+title: アドビドキュメントのコントリビューターガイド
 seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
-description: このガイドでは、アドビのドキュメントサイトに提案や追加をおこなう方法について説明します。
+description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Adobeドキュメントのコントリビューターガイド
+# アドビドキュメントのコントリビューターガイド
 
 このガイドでは、Experience League に関するアドビの法人向けヘルプに投稿する方法を説明します。
 
