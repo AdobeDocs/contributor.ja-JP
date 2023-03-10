@@ -2,9 +2,8 @@
 title: ローカル Git リポジトリの設定
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -71,7 +70,7 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 1. 「**Clone or download**」をクリックし、「**Open in Desktop**」を選択すると、リポジトリのコピー（フォーク）がコンピューターの現在のディレクトリにプルされます。
 
-  ![リポジトリのクローン](assets/clone-pulldown.png)
+   ![リポジトリのクローン](assets/clone-pulldown.png)
 
 1. ローカルファイルとフォークされたリポジトリの同期を保つには、GitHub Desktop を使用します。
 

@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,15 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 ## 共同作業ドキュメントの操作
 
-従業員、パートナー、顧客、または見込み客に誰であっても、この資料の利用者は、このドキュメントに投稿する方法を、いくつかのシンプルな方法から選択できます。
+従業員、パートナー、顧客、見込み客など、この資料のユーザーは、このドキュメントにコントリビューションする方法を、いくつかのシンプルな方法で選択できます。
 
-* ページの有用性を評価する
-* 特定のページに対する問題のログ
-* アセットやコードのサンプルを使用し、クイック編集を送信して記事全体をオーサリングできます
+* ページの有用性を評価し❶、オプションのコメントを記述し❷ます
+* 特定のページに関する問題を報告します (Git ログインが必要で❸す )
+* アセットとコードサンプルを含むクイック編集ツールを送信して、記事全体をオーサリングします（Git ログインが必要です）❹。
+
+![フィードバック](assets/feedback-options.png)
+
+これらのオプションは、ページを開いて数秒後にページの下部に表示されます。 フィードバック領域を閉じた場合は、ページをリロードして元に戻すことができます。
 
 このガイドでは、操作や、この資料セットにコントリビューションする際に必要なすべての事柄について説明します。
 
@@ -38,16 +42,23 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## ページの有用性を評価し、コメントを書く
+
+ページを開いて数秒後に、ページの下部にフィードバック領域が表示されます。 上または下をクリックして、ページが役に立ったかどうかを示します。
+
+追加のフィードバックを提供するために、コメントを残しておいてください。
+
 ## 既存ドキュメントのクイック編集
 
-クイック編集は、ドキュメント内の小さな不備や欠落を修正するのに便利です。記事に以下のような編集ボタンが表示されている場合は、閲覧者がその場で修正できます。文書を編集するときには、修正または提案をアドビに提出するためのプルリクエスト（PR）を送信します。その提案をアドビがレビューして承認し、公開します。
+より詳細なフィードバックを提供したい場合は、クイック編集を行うと、ドキュメント内の小さなエラーや欠落を修正するのに適しています。 編集を提案する際には、修正や提案をアドビに送信するためのプルリクエスト (PR) を送信します。アドビは、提案をレビュー、承認および公開できます。
 
 1. 同意できる場合は[コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
    アドビの CLA は 1 回提出すれば済みます。
-1. 右列の **[!UICONTROL Edit this page]** をクリックして、GitHub の Markdown ソースファイルに移動します。
 
-   ![このページを編集アイコン](/help/assets/git_edit.png)
+1. 記事の下部に表示されるフィードバック領域で、 **[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、 **[!UICONTROL Suggest an edit]** をクリックして、GitHub の markdown ソースファイルに移動します。
+
+   ![このページを編集アイコン](/help/assets/feedback-suggest-edit.png)
 
 1. 鉛筆アイコンをクリックして記事を編集します。
 
@@ -55,11 +66,12 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
    >
    >鉛筆アイコンがグレー表示になっている場合は、GitHub アカウントにログインするか、新しいアカウントを作成する必要があります。
 
-   ![鉛筆アイコンの場所](assets/edit-icon.png)
+   ![鉛筆アイコンの場所](assets/git_edit.png)
 
 1. Web エディターで変更を加えます。
 
    「**[!UICONTROL Preview changes]**」タブをクリックすると、変更部分の書式を確認できます。
+
 1. 変更を加えたら、ページの下部までスクロールします。
 
    PR のタイトルと説明を入力し、次の図に示す **[!UICONTROL Propose file change]** をクリックします。
@@ -72,17 +84,17 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 必要な操作は以上です。いただいたプルリクエストは、ドキュメントチームメンバーがレビューして結合します。ご協力ありがとうございます。
 
-## 問題をログに記録
+## 問題の報告
 
-コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Log an Issue]** を使用することです。
+コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Report an issue]** を使用することです。
 
-1. コンテンツの一部で問題を見つけたら、右列にある「**[!UICONTROL Log an Issue]**」アイコンをクリックします。
+1. 記事の下部に表示されるフィードバック領域で、 **[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、 **[!UICONTROL Report an issue]** をクリックして、GitHub の markdown ソースファイルに移動します。
 
-   ![](assets/git_log_issue.png)
+   ![レポートの問題](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >問題をログに記録するには、GitHub アカウントにログインするか、アカウントを作成する必要があります。
+   >問題を報告するには、GitHub アカウントにログインするか、アカウントを作成する必要があります。
 
    このリンクをクリックすると、GitHub Issue インターフェイスを使用して、Experience League でクイックチケットを登録できます。
 
