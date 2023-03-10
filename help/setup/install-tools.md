@@ -3,7 +3,7 @@ title: オーサリングツールのインストール
 description: この記事では、Git／GitHub の操作や Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
