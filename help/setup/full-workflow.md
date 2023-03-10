@@ -2,7 +2,7 @@
 title: 大きな変更をする際の GitHub コントリビューションワークフロー
 description: Experience League で Adobe ドキュメントに投稿する方法について説明します。
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: ht
 source-wordcount: '944'
 ht-degree: 100%
@@ -38,6 +38,7 @@ Git および GitHub のリポジトリやブランチといった概念に馴�
 ## ワークフロー
 
 >[!IMPORTANT]
+>
 > [設定](github-signup.md)の手順がまだ終わっていない場合は、まずそちらを完了してください。
 
 このワークフローでは、変更は反復的なサイクルとして実行されます。変更は、使用しているデバイスのローカルリポジトリから、GitHub フォークに反映され、次にメインの GitHub リポジトリに反映されます。その後、再度ローカルに反映されて、他のコントリビューターの変更内容が統合されます。
