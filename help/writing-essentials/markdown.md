@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
+workflow-type: tm+mt
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
@@ -86,11 +86,13 @@ This is not \*italicized\* type.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -106,11 +108,13 @@ This is not \*italicized\* type.
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this:
 
    | Hello | World |
    |---|---|
    | How | are you? |
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -175,13 +179,11 @@ See [Overview example article](../../overview.md)
 
 表示：
 
-![Adobe Logo ](assets/no-localize/adobe_standard_logo.png " Hover text ")
-
-**注意：**&#x200B;ローカライズしない画像の場合は、アセットフォルダーに別の `do-not-localize` フォルダーを作成します。通常は、テキストのない画像やサンプルコンテンツのみを含む画像が配置されます。これで、アセットフォルダーから「ノイズ」が除去され、質問の数が減ります。
+![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
 ### コードブロック
 
-コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
+コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)。
 
 段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ``` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
@@ -208,10 +210,10 @@ function test() {
 
 * メモブロック
 * 埋め込みビデオ
-* ローカライズ禁止
-* コンポーネントプロパティ（見出しに異なる見出し ID を割り当てるなど）
+* 翻訳タグ
+* コンポーネントプロパティ（見出しに異なる見出し ID を割り当てたり、画像サイズを指定したりするなど）
 
-メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（>）を使用します。コンポーネント内にサブコンポーネントを入れる必要がある場合は、サブコンポーネントのセクション用に 1 つ深いレベルのブロッククォートを追加します（>  >）。例えば、ローカライズ禁止セクション内にメモを入れるには、メモのセクションを>    > で始めます。
+メモなどの拡張コンポーネントをひとまとめにするには、各行の先頭に Markdown のブロッククォート（>）を使用します。
 
 見出しやコードブロックなどの一般的な Markdown 要素には、拡張プロパティが備わっているものもあります。デフォルトプロパティを変更する場合は、コンポーネントの後に中かっこ /{ /} で囲んでパラメーターを追加します。拡張プロパティについては、本文中で説明しています。
 
@@ -229,7 +231,6 @@ function test() {
 * `[!PREREQUISITES]`
 
 メモブロックは文章の流れを妨げることがあるので、多用しすぎないようにします。メモブロックではコードブロック、画像、リスト、リンクも使用できますが、シンプルで簡潔なメモにするよう心がけてください。
-
 
 ```markdown
 >[!NOTE]
@@ -273,6 +274,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -280,6 +282,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/jp/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
@@ -334,7 +337,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-ベストプラクティスとして、ファイル名にはアンダースコア（_）ではなく、ハイフン（-）を使用するようにします。
+ベストプラクティスは、ファイル名にアンダースコア (_) ではなくハイフン (-) を使用することです。
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
