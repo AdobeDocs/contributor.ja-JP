@@ -7,7 +7,7 @@ exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
@@ -23,15 +23,15 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 ## 共同作業ドキュメントの操作
 
-従業員、パートナー、顧客、見込み客など、この資料のユーザーは、このドキュメントにコントリビューションする方法を、いくつかのシンプルな方法で選択できます。
+従業員、パートナー、顧客、または潜在顧客にかかわらず、この資料の利用者には、このドキュメントに投稿できる簡単な方法がいくつかあります。
 
 * ページの有用性を評価し❶、オプションのコメントを記述し❷ます
-* 特定のページに関する問題を報告します (Git ログインが必要で❸す )
-* アセットとコードサンプルを含むクイック編集ツールを送信して、記事全体をオーサリングします（Git ログインが必要です）❹。
+* 特定のページに関する問題を報告します (Git ログインが必要です) ❸
+* アセットやコードのサンプルを使用し、クイック編集を送信して記事全体をオーサリングできます（Git ログインが必要です）❹
 
 ![フィードバック](assets/feedback-options.png)
 
-これらのオプションは、ページを開いて数秒後にページの下部に表示されます。 フィードバック領域を閉じた場合は、ページをリロードして元に戻すことができます。
+これらのオプションは、ページを開いて数秒後にページの下部に表示されます。 フィードバック領域を閉じても、ページをリロードして元に戻すことができます。
 
 このガイドでは、操作や、この資料セットにコントリビューションする際に必要なすべての事柄について説明します。
 
@@ -42,21 +42,21 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
-## ページの有用性を評価し、コメントを書く
+## ページの有用性を評価し、コメントを書きます
 
-ページを開いて数秒後に、ページの下部にフィードバック領域が表示されます。 上または下をクリックして、ページが役に立ったかどうかを示します。
+ページを開いて数秒後に、フィードバック領域がページの下部に表示されます。 上または下をクリックして、ページが役に立ったかどうかを示します。
 
-追加のフィードバックを提供するために、コメントを残しておいてください。
+遠慮なくコメントを残して、追加のフィードバックを提供してください。
 
 ## 既存ドキュメントのクイック編集
 
-より詳細なフィードバックを提供したい場合は、クイック編集を行うと、ドキュメント内の小さなエラーや欠落を修正するのに適しています。 編集を提案する際には、修正や提案をアドビに送信するためのプルリクエスト (PR) を送信します。アドビは、提案をレビュー、承認および公開できます。
+より詳細なフィードバックを提供したい場合は、クイック編集を使用するとドキュメント内の小さなエラーや欠落を修正できます。 編集を提案するときには、修正または提案をアドビに提出するためのプルリクエスト（PR）を送信します。その提案をアドビが検証して承認し、公開します。
 
 1. 同意できる場合は[コントリビューター使用許諾契約（CLA）](http://opensource.adobe.com/cla.html)に署名します。
 
    アドビの CLA は 1 回提出すれば済みます。
 
-1. 記事の下部に表示されるフィードバック領域で、 **[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、 **[!UICONTROL Suggest an edit]** をクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Suggest an edit]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
 
    ![このページを編集アイコン](/help/assets/feedback-suggest-edit.png)
 
@@ -84,13 +84,13 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 必要な操作は以上です。いただいたプルリクエストは、ドキュメントチームメンバーがレビューして結合します。ご協力ありがとうございます。
 
-## 問題の報告
+## 問題を報告
 
 コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Report an issue]** を使用することです。
 
-1. 記事の下部に表示されるフィードバック領域で、 **[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、 **[!UICONTROL Report an issue]** をクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Report an issue]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
 
-   ![レポートの問題](assets/feedback-report-issue.png)
+   ![問題を報告](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
