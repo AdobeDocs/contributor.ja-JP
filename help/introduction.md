@@ -5,9 +5,9 @@ description: このガイドでは、アドビのドキュメントサイトに�
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 従業員、パートナー、顧客、または潜在顧客にかかわらず、この資料の利用者には、このドキュメントに投稿できる簡単な方法がいくつかあります。
 
-* ページの有用性を評価し❶、オプションのコメントを記述し❷ます
+* ページの有用性を評価し❶、オプションのコメントを書きます❷
 * 特定のページに関する問題を報告します (Git ログインが必要です) ❸
 * アセットやコードのサンプルを使用し、クイック編集を送信して記事全体をオーサリングできます（Git ログインが必要です）❹
 
