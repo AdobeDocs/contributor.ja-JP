@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 99%
 
 ---
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### コードブロック
 
-コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
+コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)。
 
 段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ``` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
@@ -229,32 +229,35 @@ function test() {
 * `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
+* `[!ERROR]`
+* `[!ADMINISTRATION]`
+* `[!INFO]`
+* `[!SUCCESS]`
 
 メモブロックは文章の流れを妨げることがあるので、多用しすぎないようにします。メモブロックではコードブロック、画像、リスト、リンクも使用できますが、シンプルで簡潔なメモにするよう心がけてください。
 
+
 ```markdown
 >[!NOTE]
 >
 >This is a standard NOTE block.
 ```
 
-表示：
-
->[!NOTE]
->
->This is a standard NOTE block.
-
 ```markdown
 >[!TIP]
 >
->This is a standard tip.
+>This is a standard TIP.
+```
+
+```markdown
+>[!IMPORTANT]
+>
+>This is an IMPORTANT note.
 ```
 
 表示：
 
->[!TIP]
->
->This is a standard tip.
+![レンダリングしたメモ](assets/notes-rendered.png)
 
 ### ビデオ
 
@@ -349,7 +352,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符：`&#8220;`
+* 左（開始）引用符： `&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -358,7 +361,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。`&lt;script name&gt;`
+例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
 
 ### タイトル内のアンパサンド
 
