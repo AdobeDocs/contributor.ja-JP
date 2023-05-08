@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -275,12 +275,7 @@ function test() {
 
 AEM の「その他の類似項目」コンポーネントは、記事の末尾に表示されます。これは関連リンクを示すコンポーネントです。このコンポーネントは記事のレンダリング時にレベル 2 の見出し（##）と同じ書式で表示されますが、ミニ目次には追加されません。
 
-```markdown
->[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
-```
+![morelikthis 構文](assets/more-like-this-syntax.png)
 
 表示：
 
