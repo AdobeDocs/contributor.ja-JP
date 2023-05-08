@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* Here we go again.
+* さあ、また行こう。
 
 リストを入れ子にしたり、リスト項目の間にコンテンツを追加することもできます。
 
@@ -119,7 +119,7 @@ This is not \*italicized\* type.
 
    >[!NOTE]
    >
-   >This is note text.
+   >これはノートテキストです。
 
 1. Do another step.
 
@@ -285,9 +285,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/jp/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/jp/support/audience-manager.html)
+* [第 1 条](https://helpx.adobe.com/jp/support/analytics.html)
+* [第 2 条](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 
 ### UICONTROL と DNL
@@ -312,7 +311,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**注意：** 3 つのタグ付けオプションのうち、高品質を実現するために最も重要かつ必須のオプションです。
+>[!NOTE]
+この 3 つのタグ付けオプションのうち、高品質のタグ付けを実現するためには最も重要なオプションで、必須のオプションです。
 
 **`[!DNL]`**
 
