@@ -257,7 +257,7 @@ function test() {
 
 表示：
 
-![レンダリングしたメモ](assets/notes-rendered.png)
+![レンダリングされたメモ](assets/notes-rendered.png)
 
 ### ビデオ
 
