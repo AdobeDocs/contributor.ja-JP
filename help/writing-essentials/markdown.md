@@ -3,9 +3,9 @@ title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ This is not \*italicized\* type.
 
 * First item in an unordered list.
 * Another item.
-* さあ、また行こう。
+* また始まりました。
 
 リストを入れ子にしたり、リスト項目の間にコンテンツを追加することもできます。
 
@@ -119,7 +119,7 @@ This is not \*italicized\* type.
 
    >[!NOTE]
    >
-   >これはノートテキストです。
+   >これはメモテキストです。
 
 1. Do another step.
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### コードブロック
 
-コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)。
+コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)
 
 段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ``` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
@@ -280,8 +280,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
-* [第 1 条](https://helpx.adobe.com/jp/support/analytics.html)
-* [第 2 条](https://helpx.adobe.com/jp/support/audience-manager.html)
+* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
+* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 
 ### UICONTROL と DNL
@@ -307,7 +307,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 ```
 
 >[!NOTE]
-この 3 つのタグ付けオプションのうち、高品質のタグ付けを実現するためには最も重要なオプションで、必須のオプションです。
+3 つのタグ付けオプションのうち、高品質を実現するために最も重要かつ必須のオプションです。
 
 **`[!DNL]`**
 
