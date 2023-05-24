@@ -1,14 +1,13 @@
 ---
 lastModified: 2018-06-28T00:00:00Z
 title: ドキュメント内でのリンクの使用
-seo-title: Adobe Git/Markdown ドキュメント内でのリンクの使用
+seo-title: Using links in Adobe Git/Markdown documentation
 description: この記事では、コンテンツや画像へのリンクを作成するときのガイドラインを説明します。
-seo-description: この記事では、アドビのドキュメント内でコンテンツや画像へのリンクを作成するときのガイドラインを説明します。
+seo-description: This article provides guidance on creating links to content and images for Adobe documentation.
 exl-id: f9d61aa9-931c-4654-ab21-c6e47936954e
-translation-type: ht
 source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '340'
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
 
 ---

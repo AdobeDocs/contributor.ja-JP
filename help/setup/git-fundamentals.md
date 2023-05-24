@@ -3,7 +3,7 @@ title: Git および GitHub のドキュメントの基礎
 description: この記事では、Git、GitHub リポジトリ、コンテンツの編成方法と、アドビのドキュメントで使用される命名規則の概要について説明します。
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 

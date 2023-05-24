@@ -1,15 +1,14 @@
 ---
 title: アドビ行動規範
-description: 'アドビ行動規範 '
-translation-type: ht
+description: アドビ行動規範
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
 
-# アドビ行動規範
+# アドビの行動規範
 
 ## アドビの誓約
 

@@ -2,9 +2,8 @@
 title: GitHub アカウントのセットアップ手順
 description: アドビのドキュメントにコンテンツ的な貢献をするために必要な GitHub アカウントの設定手順を詳しく説明します。
 exl-id: 62be9e5a-bbbc-4a78-82e9-24cf658e6d35
-translation-type: ht
 source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 

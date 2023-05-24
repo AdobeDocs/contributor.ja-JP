@@ -3,7 +3,7 @@ title: ローカル Git リポジトリの設定
 description: この記事では、ローカル Git リポジトリを作成してアドビのドキュメントにコントリビューションする方法を説明します。フォークやクローンのプロセスについても取り上げます。
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 

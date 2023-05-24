@@ -4,8 +4,8 @@ title: 外部寄稿者向けのオーサリングスタイルガイドライン
 description: Experience League への外部寄稿者向けのオーサリングおよびエディトリアルガイドラインについて説明します。
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
-workflow-type: ht
-source-wordcount: '2227'
+workflow-type: tm+mt
+source-wordcount: '2224'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,7 @@ _タイトル_&#x200B;と&#x200B;_説明_&#x200B;のメタデータは、Experie
 | 「_クリック_」を「_移動_」または「_選択_」に変更する | 「_クリック_」はデバイス固有の単語（アクセシビリティの問題を含む）であり、使用頻度は減る傾向にあります。 次のように変更することを提案します。<ul><li>ナビゲーション：_ファイル／印刷に移動します_。</li><li>クリック： _ファイル／印刷を選択_&#x200B;または _OK を選択_&#x200B;します。 </li></ul>様々な状況での最良の単語選択に関するより多くのアイデアについては、[UI とのインタラクションの説明](https://docs.microsoft.com/ja-jp/style-guide/procedures-instructions/describing-interactions-with-ui)を参照してください。 |
 | VSC での Acrolinx の実行 | Acrolinx はスタイルと文法の問題をチェックします。 URL、用語、スペルなどをチェックします。 これにより、 Experience League コンテンツの明確さが向上し、翻訳の質が向上します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 その他のベストプラクティスとリソース：
 
