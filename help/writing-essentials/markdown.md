@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 96%
+source-wordcount: '1466'
+ht-degree: 92%
 
 ---
 
@@ -292,23 +292,25 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 機械翻訳中、 `` のタグが付けられた項目はローカライゼーションデータベースと照合され、適切な翻訳であるかどうかが確認されます。UI がローカライズされていない場合、このタグを使用すると、特定の言語の UI 参照（イタリア語の Analytics リファレンスなど）が英語のままになります。
 
-**例：**
+**ソースコンテンツの例：**
 
-1. 次に移動： **プロセスを実行** 画面。
-1. 選択 **ファイル** > **印刷** > **すべて印刷** をクリックして、サーバー上のすべてのファイルを印刷します。
-1. [ 処理ルール ] ダイアログボックスが表示されます。
+1. 次に移動： **&amp;lbrack;!UICONTROL Run Process&amp;rbrack;** 画面。
+1. 選択 **&amp;lbrack;!UICONTROL ファイル&amp;rbrack; > &amp;lbrack;!UICONTROL 印刷&amp;rbrack; > &amp;lbrack;!UICONTROL すべての&amp;rbrack；を印刷** をクリックして、サーバー上のすべてのファイルを印刷します。
+1. &amp;lbrack;!UICONTROL 処理ルール&amp;rbrack；ダイアログボックスが表示されます。
 
-**ソース：**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-3 つのタグ付けオプションのうち、高品質を実現するために最も重要かつ必須のオプションです。
+この 2 つのタグ付けオプションのうち、高品質を実現するために最も重要なもので、必須です。
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 **例：**
 
-* Target では、A/B テストを作成して最適な
-* Adobe Analytics は、サイトに関する分析を収集するための強力なソリューションです。また、Analytics では、レポートを使用して、そのデータを簡単にダイジェストできます。
+* &amp;lbrack;!DNL Target&amp;rbrack；を使用すると、A/B テストを作成して最適な
+* Adobe Analytics は、サイトに関する分析を収集するための強力なソリューションです。&amp;lbrack;!DNL Analytics&amp;rbrack；は、レポートを使用して簡単にデータをダイジェストするのに役立ちます。
 
-**ソース：**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## 注意事項とトラブルシューティング
 
