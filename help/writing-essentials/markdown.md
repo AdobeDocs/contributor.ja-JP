@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
+source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 92%
+source-wordcount: '1378'
+ht-degree: 97%
 
 ---
 
@@ -294,17 +294,15 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 **ソースコンテンツの例：**
 
-1. 次に移動： **&amp;lbrack;!UICONTROL Run Process&amp;rbrack;** 画面。
-1. 選択 **&amp;lbrack;!UICONTROL ファイル&amp;rbrack; > &amp;lbrack;!UICONTROL 印刷&amp;rbrack; > &amp;lbrack;!UICONTROL すべての&amp;rbrack；を印刷** をクリックして、サーバー上のすべてのファイルを印刷します。
-1. &amp;lbrack;!UICONTROL 処理ルール&amp;rbrack；ダイアログボックスが表示されます。
+![uicontrol テキストのサンプル](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
 
 ```markdown
-1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
-1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
-1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 -->
 
@@ -316,17 +314,16 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 原則として、英語のまま残す部分を機械翻訳エンジンに通知する際には「翻訳対象外」リストを使用します。最も一般的な項目は「Adobe Analytics」、「Adobe Campaign」、「Adobe Target」などの長いソリューション名です。ただし、その用語が特定の方法や一般的な方法で使用される可能性があるため、英語のまま残すようエンジンに指示する必要がある場合もあります。最もわかりやすい例は、「Analytics」、「Campaign」、「Target」といったソリューションの短い名前です。機械は、それが一般的な用語ではなくソリューション名であることを理解するのを苦手としています。また、このタグは、常に英語で表示するサードパーティの名前や機能、または英語で表示する必要があるフレーズや文といった短い節のテキストにも使用できます。
 
-**例：**
+**ソースコンテンツの例：**
 
-* &amp;lbrack;!DNL Target&amp;rbrack；を使用すると、A/B テストを作成して最適な
-* Adobe Analytics は、サイトに関する分析を収集するための強力なソリューションです。&amp;lbrack;!DNL Analytics&amp;rbrack；は、レポートを使用して簡単にデータをダイジェストするのに役立ちます。
+![サンプル dnl テキスト](assets/sample-dnl.png)
 
 <!--
 **Source:**
 
 ```markdown
-* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 -->
 
