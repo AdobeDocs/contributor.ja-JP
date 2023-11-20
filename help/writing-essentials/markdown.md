@@ -2,10 +2,10 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
+source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 100%
+source-wordcount: '1431'
+ht-degree: 96%
 
 ---
 
@@ -185,7 +185,7 @@ See [Overview example article](../../overview.md)
 
 コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)。
 
-段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ` `` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` `` `javascript`
+段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ``` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
 例：
 
@@ -280,34 +280,35 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 表示：
 
 >[!MORELIKETHIS]
->* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
->* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
-
+>
+* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
+* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 ### UICONTROL と DNL
 
 マークダウンのすべてのヘルプコンテンツは、初めに機械翻訳を使用してローカライズされます。ローカライズされていないヘルプの場合は、機械翻訳のままとなります。ただし、過去にローカライズされたヘルプコンテンツの場合、そのコンテンツが人によって翻訳されている間、機械翻訳されたコンテンツがプレースホルダーとして機能します。
 
-**&grave;&grave;**
+**``**
 
-機械翻訳中、 &grave;&grave; のタグが付けられた項目はローカライゼーションデータベースと照合され、適切な翻訳であるかどうかが確認されます。UI がローカライズされていない場合、このタグを使用すると、特定の言語の UI 参照（イタリア語の Analytics リファレンスなど）が英語のままになります。
+機械翻訳中、 `` のタグが付けられた項目はローカライゼーションデータベースと照合され、適切な翻訳であるかどうかが確認されます。UI がローカライズされていない場合、このタグを使用すると、特定の言語の UI 参照（イタリア語の Analytics リファレンスなど）が英語のままになります。
 
 **例：**
 
-1. **[!UICONTROL Run Process]**&#x200B;画面に移動します。
-1. **[!UICONTROL File > Print > Print All]**&#x200B;を選択して、サーバー上のすべてのファイルを印刷します。
-1. [!UICONTROL Processing Rules]ダイアログボックスが開きます。
+1. 次に移動： **プロセスを実行** 画面。
+1. 選択 **ファイル** > **印刷** > **すべて印刷** をクリックして、サーバー上のすべてのファイルを印刷します。
+1. [ 処理ルール ] ダイアログボックスが表示されます。
 
 **ソース：**
 
 ```markdown
-1. Go to the **[!UICONTROL Run Process]** screen.
-1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
-1. The [!UICONTROL Processing Rules] dialog box appears.
+1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
+1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
+1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
 
 >[!NOTE]
->3 つのタグ付けオプションのうち、高品質を実現するために最も重要かつ必須のオプションです。
+>
+3 つのタグ付けオプションのうち、高品質を実現するために最も重要かつ必須のオプションです。
 
 **`[!DNL]`**
 
@@ -315,14 +316,14 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 **例：**
 
-* [!DNL Target] を使用すると、最適なものを見つける A／B テストを作成できます。
-* Adobe Analytics は、サイトに関する分析を収集するための強力なソリューションです。[!DNL Analytics] では、レポートを使用して、そのデータのダイジェストを容易に作成することもできます。
+* Target では、A/B テストを作成して最適な
+* Adobe Analytics は、サイトに関する分析を収集するための強力なソリューションです。また、Analytics では、レポートを使用して、そのデータを簡単にダイジェストできます。
 
 **ソース：**
 
 ```markdown
-* With [!DNL Target], you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
+* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
 
 ## 注意事項とトラブルシューティング
