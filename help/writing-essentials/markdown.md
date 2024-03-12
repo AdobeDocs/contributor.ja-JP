@@ -3,9 +3,9 @@ title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
-workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1340'
+ht-degree: 100%
 
 ---
 
@@ -145,7 +145,7 @@ This is not \*italicized\* type.
 
 テーブルの作成について詳しくは、以下を参照してください。
 
-* GitHub のヘルプ：[Organizing information with tables（テーブルを使用した情報の整理）](https://docs.github.com/ja/github/writing-on-github/organizing-information-with-tables)
+* GitHub の[情報を表に編成する](https://docs.github.com/ja/github/writing-on-github/organizing-information-with-tables)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
 * [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
 
@@ -183,7 +183,7 @@ See [Overview example article](../../overview.md)
 
 ### コードブロック
 
-コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[Markdown がネイティブでサポートするコードブロックについての解説を参照してください。](https://daringfireball.net/projects/markdown/syntax#precode)。
+コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。詳しくは、[コードブロックに関する Markdown のネイティブサポート](https://daringfireball.net/projects/markdown/syntax#precode)を参照してください。
 
 段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ``` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。例：` ```javascript`
 
@@ -281,8 +281,8 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 >[!MORELIKETHIS]
 >
-* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
-* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
+>* [記事 1](https://helpx.adobe.com/jp/support/analytics.html)
+>* [記事 2](https://helpx.adobe.com/jp/support/audience-manager.html)
 
 ### UICONTROL と DNL
 
@@ -294,7 +294,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 **ソースコンテンツの例：**
 
-![uicontrol テキストのサンプル](assets/sample-uicontrol.png)
+![サンプル uicontrol テキスト](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -349,7 +349,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 「スマート」バージョンの記号をエンコードするには、以下のようにします。
 
-* 左（開始）引用符： `&#8220;`
+* 左（開始）引用符：`&#8220;`
 * 右（終了）引用符：`&#8221;`
 * 右（終了）単一引用符またはアポストロフィ：`&#8217;`
 * 左（開始）単一引用符（ほとんど使用されません）：`&#8216;`
@@ -358,7 +358,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 ファイル内のコードではなく本文テキストで山かっこを使用する場合は（プレースホルダーを表す場合など）、山かっこを手動でエンコードする必要があります。そうしないと、HTML タグであると解釈されます。
 
-例えば、`<script name>` は次のようにエンコードします。 `&lt;script name&gt;`
+例えば、`<script name>` を `&lt;script name&gt;` としてエンコードします。
 
 ### タイトル内のアンパサンド
 
