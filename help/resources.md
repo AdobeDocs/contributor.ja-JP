@@ -4,7 +4,7 @@ description: Git および GitHub の学習リソース。
 exl-id: a112954a-76d9-4ee7-86be-676c5bd92994
 source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '109'
 ht-degree: 100%
 
 ---

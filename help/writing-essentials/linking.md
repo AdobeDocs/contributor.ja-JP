@@ -35,27 +35,27 @@ ht-degree: 100%
 
 - あるディレクトリ内の記事から同じディレクトリ内の別の記事へのリンク：
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - あるサブディレクトリからルートディレクトリ内の記事へのリンク：
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - あるサブサブディレクトリ（孫ディレクトリ）からルートディレクトリ内の記事へのリンク：
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
 - ルートディレクトリ内の記事からサブディレクトリ内の記事へのリンク：
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - あるサブディレクトリ内の記事から別のサブディレクトリ内の記事へのリンク：
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - あるサブサブディレクトリ（孫ディレクトリ）内の記事から別のサブディレクトリの記事へのリンク：
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## アンカーへのリンク
 
@@ -63,21 +63,21 @@ ht-degree: 100%
 
 - 同じ記事内の見出しにリンクするには：
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - 同じサブディレクトリ内の別の記事内のアンカーにリンクするには：
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - 別のサービスサブディレクトリ内のアンカーにリンクするには：
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## 画像へのリンク
 
@@ -85,8 +85,8 @@ ht-degree: 100%
 
 - 記事から `assets` サブディレクトリ内の画像へのリンク：
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
 - 記事から `assets/no-localize` サブディレクトリ内の画像へのリンク：
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

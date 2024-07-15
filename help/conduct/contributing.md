@@ -4,7 +4,7 @@ description: このプロジェクトに投稿する際は、次のガイドラ�
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、このイシュートラッカーに報告せずに、[セキュリティ専門家に報告](https://helpx.adobe.com/jp/security/alertus.html)
+セキュリティ上の問題は、このイシュートラッカーに報告せずに、代わりに、[アドビのセキュリティの専門家](https://helpx.adobe.com/jp/security/alertus.html)に問題を提出します。

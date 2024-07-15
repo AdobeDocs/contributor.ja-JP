@@ -6,8 +6,8 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '927'
+ht-degree: 88%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
    アドビの CLA は 1 回提出すれば済みます。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Suggest an edit]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL 詳細なフィードバックオプション]** をクリックしてから、**[!UICONTROL 編集を提案]** をクリックして、GitHub の Markdown ソースファイルに移動します。
 
    ![このページを編集アイコン](/help/assets/feedback-suggest-edit.png)
 
@@ -74,21 +74,21 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 1. 変更を加えたら、ページの下部までスクロールします。
 
-   PR のタイトルと説明を入力し、次の図に示す **[!UICONTROL Propose file change]** をクリックします。
+   PR のタイトルと説明を入力し、「**[!UICONTROL ファイルの変更を提案]**」をクリックします（下図を参照）。
 
    ![変更の提案](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、**[!UICONTROL Details]** をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
+   >コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**[!UICONTROL 詳細]**」をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
 
 必要な操作は以上です。いただいたプルリクエストは、ドキュメントチームメンバーがレビューして結合します。ご協力ありがとうございます。
 
 ## 問題を報告
 
-コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Report an issue]** を使用することです。
+コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL 問題を報告]** を使用することです。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Report an issue]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL 詳細なフィードバックオプション]** をクリックしてから、**[!UICONTROL 問題を報告]** をクリックして、GitHub の Markdown ソースファイルに移動します。
 
    ![問題を報告](assets/feedback-report-issue.png)
 

@@ -5,8 +5,8 @@ description: Experience League への外部寄稿者向けのオーサリング�
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 100%
+source-wordcount: '2203'
+ht-degree: 99%
 
 ---
 
@@ -188,17 +188,17 @@ Google は、SEO の結果で代替テキストを検討します。
 
 * `DNL`
 
-   DNL は、_do not localize_（ローカライズしない）を意味します。商標登録されたアドビ製品名にのみ使用します。これらはすべて英語のままにする必要があります。
+  DNL は、_do not localize_（ローカライズしない）を意味します。商標登録されたアドビ製品名にのみ使用します。これらはすべて英語のままにする必要があります。
 
-   構文の例：`[!DNL Adobe Campaign]` または `[!DNL Workfront]`
+  構文の例：`[!DNL Adobe Campaign]` または `[!DNL Workfront]`
 
-   DNL は、ファイル名や URL には使用しません。
+  DNL は、ファイル名や URL には使用しません。
 
 * `UICONTROL`
 
-   UICONTROL は、インターフェイスコントロール（オプション、フィールド、タブ、ページ、オプションのグループ、UI の機能名など）を示します。
+  UICONTROL は、インターフェイスコントロール（オプション、フィールド、タブ、ページ、オプションのグループ、UI の機能名など）を示します。
 
-   構文の例：`Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
+  構文の例：`Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`
 
 >[!IMPORTANT]
 >
@@ -218,7 +218,7 @@ _オーディエンスは、訪問者の集まり（訪問者 ID のリスト）
 
 最初の段落の例（タスク）：
 
-_顧客属性ソース（CSV および FIN ファイル）を作成してデータをアップロードします。準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target で共有します。_
+_顧客属性ソース（CSV および FIN ファイル）を作成してデータをアップロードします。準備できたら、データソースをアクティブ化できます。データソースがアクティブになったら、属性データを Analytics と Target に共有します。_
 
 ### 最初の段落に関する SEO のヒント {#seo}
 
