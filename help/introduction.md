@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
+source-git-commit: 355ed3b7e1873272dd4c0626b51a48f37a026680
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 88%
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 従業員、パートナー、顧客、または潜在顧客にかかわらず、この資料の利用者には、このドキュメントに投稿できる簡単な方法がいくつかあります。
 
-* ページの有用性を評価し❶、オプションのコメントを書きます❷
-* 特定のページに関する問題を報告します (Git ログインが必要です) ❸
-* アセットやコードのサンプルを使用し、クイック編集を送信して記事全体をオーサリングできます（Git ログインが必要です）❹
+* ページ ❶ の有用性を評価し、オプションでコメント ❷ を書きます
+* 特定のページに対して問題を報告する（Git ログインが必要） ❸
+* アセットやコードサンプルを使用し、クイック編集スルーを送信して記事全体をオーサリングできます（Git ログインが必要です） ❹
 
 ![フィードバック](assets/feedback-options.png)
 
@@ -118,4 +118,4 @@ GitHub の編集 UI は、利用者のリポジトリ権限に応じて変化し
 
 アドビのソリューションセットのように大規模なものになると、ドキュメントは常に作業中になります。エラーを見つけた場合はログに記録し、提案がある場合はアドビまでお知らせください。どのような情報を探しているか、ご意見をお聞かせください。必要な情報が見つからない場合は、その旨をお知らせください。タスクをうまく完了できない場合は、どこがわからないかをご指摘ください。
 
-共同作業ドキュメントの担当チームと Experience League のすべてのライターおよびコンテンツ製作者を代表して、皆様のご協力に感謝を申し上げます。
+共同作業ドキュメントチームと、Experience Leagueのすべてのライターおよびコンテンツ製作者を代表して、皆様のご協力に感謝を申し上げます。 ご援助いただき、ありがとうございます。
