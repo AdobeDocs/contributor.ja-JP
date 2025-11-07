@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 355ed3b7e1873272dd4c0626b51a48f37a026680
+source-git-commit: 077555cf4e2c5559f19b8e38ba140ecdad9e5c29
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 82%
+source-wordcount: '906'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
    アドビの CLA は 1 回提出すれば済みます。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL 詳細なフィードバックオプション]** をクリックしてから、**[!UICONTROL 編集を提案]** をクリックして、GitHub の Markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Suggest an edit]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
 
    ![このページを編集アイコン](/help/assets/feedback-suggest-edit.png)
 
@@ -74,21 +74,21 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 1. 変更を加えたら、ページの下部までスクロールします。
 
-   PR のタイトルと説明を入力し、「**[!UICONTROL ファイルの変更を提案]**」をクリックします（下図を参照）。
+   PR のタイトルと説明を入力し、次の図に示す **[!UICONTROL Propose file change]** をクリックします。
 
    ![変更の提案](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、「**[!UICONTROL 詳細]**」をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
+   >コントリビューター使用許諾契約（CLA）への署名に関する検証エラーメッセージが表示されたら、**[!UICONTROL Details]** をクリックしてライセンス契約書を開きます。同意できる場合は、契約に署名します。次に、プルリクエストを閉じてから開いて続行します。
 
 必要な操作は以上です。いただいたプルリクエストは、ドキュメントチームメンバーがレビューして結合します。ご協力ありがとうございます。
 
 ## 問題を報告
 
-コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL 問題を報告]** を使用することです。
+コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Report an issue]** を使用することです。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL 詳細なフィードバックオプション]** をクリックしてから、**[!UICONTROL 問題を報告]** をクリックして、GitHub の Markdown ソースファイルに移動します。
+1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Report an issue]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
 
    ![問題を報告](assets/feedback-report-issue.png)
 
@@ -118,4 +118,4 @@ GitHub の編集 UI は、利用者のリポジトリ権限に応じて変化し
 
 アドビのソリューションセットのように大規模なものになると、ドキュメントは常に作業中になります。エラーを見つけた場合はログに記録し、提案がある場合はアドビまでお知らせください。どのような情報を探しているか、ご意見をお聞かせください。必要な情報が見つからない場合は、その旨をお知らせください。タスクをうまく完了できない場合は、どこがわからないかをご指摘ください。
 
-共同作業ドキュメントチームと、Experience Leagueのすべてのライターおよびコンテンツ製作者を代表して、皆様のご協力に感謝を申し上げます。 ご援助いただき、ありがとうございます。
+共同作業ドキュメントチームと、Experience Leagueのすべてのライターおよびコンテンツ製作者を代表して、皆様のご協力に感謝を申し上げます。 手伝ってくれてありがとうね。
