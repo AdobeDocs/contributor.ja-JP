@@ -2,9 +2,9 @@
 title: オーサリングツールのインストール
 description: この記事では、Git／GitHub の操作や Markdown ファイルの編集に必要なクライアントツールのダウンロードとインストールについて説明します。
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: 2ea5ddf33ae857dd9a5a764cac1fde8dcc4bc7d4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 100%
 
 Git の学習リソースには、以下のものがあります。
 
-* [Git の基礎](https://git-scm.com/book/ja/v2/Getting-Started-Git-Basics)
 * [Git および GitHub について](https://docs.github.com/ja/github/getting-started-with-github/git-and-github-learning-resources)
 * [Git の用語](https://docs.github.com/ja/github/getting-started-with-github/github-glossary)
 
