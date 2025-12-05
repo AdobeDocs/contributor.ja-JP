@@ -5,7 +5,7 @@ cloud: Experience Cloud
 user-guide-title: 投稿者ガイド
 user-guide-description: Adobe ドキュメントへの投稿者の手順
 index: true
-source-git-commit: 5412da76ebf2e8f67c35b09940b6a3d5cf442691
+source-git-commit: 64268158ee78464e49ae3409255850015dd2b6e2
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 77%
@@ -33,5 +33,5 @@ ht-degree: 77%
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
 + テスト無視 {#testing}
-   + [ID を持つ Analytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
-   + [&#x200B; 認証ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
+   + [Analytics と ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [ 認証ガイド ](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
