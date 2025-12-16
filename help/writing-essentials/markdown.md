@@ -2,9 +2,9 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
+source-git-commit: 7a14bde440f011f94b9eded63512362146336a9d
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1333'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ This is not \*italicized\* type.
 * Another item.
 * また始まりました。
 
-リストを入れ子にしたり、リスト項目の間にコンテンツを追加することもできます。
+リストを埋め込んだり、リスト項目の間にコンテンツを追加することもできます。
 
 ```markdown
 1. Set up your table and code blocks.
@@ -104,12 +104,12 @@ This is not \*italicized\* type.
 
 表示：
 
-1. Set up your table and code blocks.
+1. テーブルとコードブロックを設定します。
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
 
-1. Make sure that your table looks like this:
+1. テーブルが次のようになっていることを確認してください。
 
    | Hello | World |
    |---|---|
@@ -146,7 +146,6 @@ This is not \*italicized\* type.
 テーブルの作成について詳しくは、以下を参照してください。
 
 * GitHub の[情報を表に編成する](https://docs.github.com/ja/github/writing-on-github/organizing-information-with-tables)
-* [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) Web アプリ
 * [HTML テーブルから Markdown への変換ツール](https://jmalarcon.github.io/markdowntables/)
 
 ### リンク

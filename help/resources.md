@@ -2,9 +2,9 @@
 title: Git および GitHub の学習リソース
 description: Git および GitHub の学習リソース。
 exl-id: a112954a-76d9-4ee7-86be-676c5bd92994
-source-git-commit: 2ea5ddf33ae857dd9a5a764cac1fde8dcc4bc7d4
+source-git-commit: 7a14bde440f011f94b9eded63512362146336a9d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '88'
 ht-degree: 100%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 100%
 
 Git または GitHub に慣れていない方は、以下のリソースをご利用ください。
 
-- [Git の基礎](https://git-scm.com/book/ja/v2/Getting-Started-Git-Basics)：Git の基本を簡単に説明します。
 - [Git および GitHub について](https://docs.github.com/ja/github/getting-started-with-github/git-and-github-learning-resources)
 - [インタラクティブ入門ガイド](https://try.github.io/)：オンラインの Git チュートリアルです。Git の基本について説明します。
 - Pro Git 電子ブック（[Web](https://git-scm.com/book/ja/v2) または [PDF](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf)）：HTML または PDF 形式で提供されている完全版の Git リファレンスです。
