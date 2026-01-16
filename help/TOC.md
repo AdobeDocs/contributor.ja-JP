@@ -33,5 +33,5 @@ ht-degree: 77%
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
 + テスト無視 {#testing}
-   + [Analytics と ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [Analytics と ID](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
    + [&#x200B; 認証ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
