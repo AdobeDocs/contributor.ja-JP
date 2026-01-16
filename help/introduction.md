@@ -4,7 +4,7 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 077555cf4e2c5559f19b8e38ba140ecdad9e5c29
+source-git-commit: f0552fbba1aac1b8ffd4116bd66f6c06afab0d39
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 93%
@@ -119,3 +119,4 @@ GitHub の編集 UI は、利用者のリポジトリ権限に応じて変化し
 アドビのソリューションセットのように大規模なものになると、ドキュメントは常に作業中になります。エラーを見つけた場合はログに記録し、提案がある場合はアドビまでお知らせください。どのような情報を探しているか、ご意見をお聞かせください。必要な情報が見つからない場合は、その旨をお知らせください。タスクをうまく完了できない場合は、どこがわからないかをご指摘ください。
 
 共同作業ドキュメントチームと、Experience Leagueのすべてのライターおよびコンテンツ製作者を代表して、皆様のご協力に感謝を申し上げます。 手伝ってくれてありがとうね。
+

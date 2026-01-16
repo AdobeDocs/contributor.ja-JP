@@ -5,7 +5,7 @@ cloud: Experience Cloud
 user-guide-title: 投稿者ガイド
 user-guide-description: Adobe ドキュメントへの投稿者の手順
 index: true
-source-git-commit: 64268158ee78464e49ae3409255850015dd2b6e2
+source-git-commit: f0552fbba1aac1b8ffd4116bd66f6c06afab0d39
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 77%
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 # アドビドキュメントのコントリビューターガイド{#contributor-guide}
 
-+ [はじめに](introduction.md)
++ [はじめに](/help/introduction.md)
 + GitHub の設定 {#setup}
    + [GitHub アカウントの設定](setup/github-signup.md)
    + [Git および Markdown オーサリングツールのインストール](setup/install-tools.md)
