@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.en
+git-repo: https://github.com/AdobeDocs/contributor.ja-JP
 solution: Experience Cloud
 cloud: Experience Cloud
 user-guide-title: 投稿者ガイド
@@ -33,5 +33,5 @@ ht-degree: 66%
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
 + テスト無視 {#testing}
-   + [Analytics と ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [Analytics と ID](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
    + [認証ガイド](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
