@@ -1,13 +1,15 @@
 ---
 git-repo: https://github.com/AdobeDocs/contributor.ja-JP
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 cloud: Experience Cloud
-user-guide-title: 投稿者ガイド
-user-guide-description: Adobe ドキュメントへの投稿者の手順
+user-guide-title: 貢献者ガイド
+user-guide-description: Adobe ドキュメントへのコントリビューター向け手順
 index: true
-source-git-commit: 0d6cb6c676affb3aa7604b7cf6e983dd817df24e
+source-git-commit: 68728714de2ef9acf198b5ce14599e7b5ae647be
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 66%
 
 ---
@@ -26,12 +28,12 @@ ht-degree: 66%
    + [Markdown の使用](writing-essentials/markdown.md)
    + [一般的な記述ガイドライン](writing-essentials/general-writing-guidance.md)
    + [リンク](writing-essentials/linking.md)
-+ 翻訳のフィードバック {#localization}
++ 翻訳フィードバック {#localization}
    + [Adobe Experience Cloud 製品ドキュメントの言語サポート](localization/machine-translation.md)
 + [Git および GitHub の学習リソース](resources.md)
 + 実施とコントリビューション {#conduct-contributions}
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
-+ テスト無視 {#testing}
-   + [Analytics と ID](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
++ テストは無視 {#testing}
+   + [IDを使用したAnalytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
    + [認証ガイド](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
