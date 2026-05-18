@@ -1,5 +1,5 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.en
+git-repo: https://github.com/AdobeDocs/contributor.ja-JP
 solution: Experience Cloud
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -35,5 +35,5 @@ ht-degree: 66%
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
 + テストは無視 {#testing}
-   + [IDを使用したAnalytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+   + [IDを使用したAnalytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
    + [認証ガイド](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
