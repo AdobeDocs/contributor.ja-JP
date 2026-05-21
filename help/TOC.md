@@ -1,13 +1,13 @@
 ---
-git-repo: https://github.com/AdobeDocs/contributor.ja-JP
+git-repo: https://github.com/AdobeDocs/contributor.en
 solution: Experience Cloud
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+usetq: true
 cloud: Experience Cloud
 user-guide-title: 貢献者ガイド
 user-guide-description: Adobe ドキュメントへのコントリビューター向け手順
 index: true
-source-git-commit: dad6d9b7633f6dea1786504c9e741c1aed5754a1
+source-git-commit: b71fc84ae8678816d5c800d3c3a0ec49010f80f9
 workflow-type: tm+mt
 source-wordcount: 101
 ht-degree: 66%
@@ -35,5 +35,5 @@ ht-degree: 66%
    + [行動規範](conduct/code-of-conduct.md)
    + [コントリビューションの概要](conduct/contributing.md)
 + テストは無視 {#testing}
-   + [IDを使用したAnalytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
+   + [IDを使用したAnalytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
    + [認証ガイド](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
