@@ -2,13 +2,11 @@
 title: Markdown を使用してドキュメントを記述する方法
 description: Markdown オーサリングの基本について説明します。 記事の執筆に使用する Markdown 言語のリファレンス情報を提供します。
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 6510db0d89ac9224df8a73ab50776e65068b7e08
+source-git-commit: 67075e2ca1ac4f63c0bdc30507dbb0444a922afd
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 93%
-
+source-wordcount: '1309'
+ht-degree: 92%
 ---
-
 # Markdown を使用した技術ドキュメントの書き方
 
 アドビの技術ドキュメント記事は、可読性が高く学習しやすい [Markdown](https://daringfireball.net/projects/markdown/) という軽量マークアップ言語で記述されます。
@@ -184,7 +182,9 @@ See [Overview example article](../../overview.md)
 
 コードブロックの配置については、文中のインラインコードスタイルと、文と文の間に独立して配置される「囲み」コードブロックの両方がサポートされています。 詳しくは、[コードブロックに関する Markdown のネイティブサポート](https://daringfireball.net/projects/markdown/syntax#precode)を参照してください。
 
-段落内にインラインコードスタイルを作成するには、バッククォート（`` ` ``）を使用します。 複数行から成る特定のコードブロックを作成するには、コードブロックの前後に 3 つのバッククォート（` ` `` `）を追加します（Markdown では「囲みコードブロック」、AEM では単に「コードブロック」コンポーネントと呼ばれます）。 囲みコードブロックで、コードの構文が正しくハイライトされるようにするには、最初の 3 文字のバッククォートの後にそのコードの言語を追加します。 例：` `` `javascript`
+<!--
+Use back ticks (`` ` ``) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (` ``` `) before and after the code block (called a "fenced code block" in Markdown and just a "code block" component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax. Example: ` ```javascript`
+-->
 
 例：
 
@@ -225,11 +225,11 @@ function test() {
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[ !ADMINISTRATION]`
+* `[!ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -287,9 +287,9 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 
 マークダウンのすべてのヘルプコンテンツは、初めに機械翻訳を使用してローカライズされます。 ローカライズされていないヘルプの場合は、機械翻訳のままとなります。 ただし、過去にローカライズされたヘルプコンテンツの場合、そのコンテンツが人によって翻訳されている間、機械翻訳されたコンテンツがプレースホルダーとして機能します。
 
-**&grave;&grave;**
+**``**
 
-機械翻訳中、 &grave;&grave; のタグが付けられた項目はローカライゼーションデータベースと照合され、適切な翻訳であるかどうかが確認されます。 UIがローカライズされていない場合、このタグを使用すると、システムは特定の言語（イタリア語のAnalytics参照など）のUI参照を英語で残すことができます。
+機械翻訳中、 `` のタグが付けられた項目はローカライゼーションデータベースと照合され、適切な翻訳であるかどうかが確認されます。 UIがローカライズされていない場合、このタグを使用すると、システムは特定の言語（イタリア語のAnalytics参照など）のUI参照を英語で残すことができます。
 
 **ソースコンテンツの例：**
 
@@ -309,7 +309,7 @@ AEM の「その他の類似項目」コンポーネントは、記事の末尾�
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**``**
+**`[!DNL]`**
 
 原則として、英語のまま残す部分を機械翻訳エンジンに通知する際には「翻訳対象外」リストを使用します。 最も一般的な項目は「Adobe Analytics」、「Adobe Campaign」、「Adobe Target」などの長いソリューション名です。 ただし、その用語が特定の方法や一般的な方法で使用される可能性があるため、英語のまま残すようエンジンに指示する必要がある場合もあります。 この最も明白なケースは、「Analytics」、「Campaign」、「Target」などのソリューションの短い名前です。マシンが、これらは一般的な用語ではなく、ソリューション名であることを理解するのは困難です。 また、このタグは、常に英語で表示するサードパーティの名前や機能、または英語で表示する必要があるフレーズや文といった短い節のテキストにも使用できます。
 
