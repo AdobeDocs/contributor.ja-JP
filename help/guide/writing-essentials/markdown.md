@@ -153,12 +153,12 @@ Markdown のインラインリンクの構文は、ハイパーリンクされ�
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/jp)
 ```
 
 表示：
 
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/jp)
 
 リポジトリ内の記事へのリンク（相互参照）を作成するには、相対リンクを使用します。 すべての相対リンクオペランドを使用できます。例えば、./（現在のディレクトリ）、../（後ろの1つのディレクトリ）、.././（後ろの2つのディレクトリ）などです。
 
