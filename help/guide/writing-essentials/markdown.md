@@ -263,12 +263,12 @@ function test() {
 埋め込みビデオは Markdown でネイティブにレンダリングされませんが、この Markdown 拡張機能を使用できます。
 
 ```markdown
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507549/?captions=jpn&quality=12)
 ```
 
 表示：
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507549/?captions=jpn&quality=12)
 
 ### その他の類似項目
 
