@@ -2,25 +2,23 @@
 title: 大きな変更をする際の GitHub コントリビューションワークフロー
 description: Experience League で Adobe ドキュメントに投稿する方法について説明します。
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 6510db0d89ac9224df8a73ab50776e65068b7e08
+source-git-commit: a1466cb4bcbef51689c659e25d56d5cb0d4843a6
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '860'
 ht-degree: 96%
-
 ---
-
 # 大きな変更をする際の GitHub コントリビューションワークフロー
 
 <!--
 >[!IMPORTANT]
 >All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/jp/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
 ## 概要
 
-このワークフローは、大きな変更を加える必要があるコントリビューターや、リポジトリの使用頻度の高いコントリビューターに適しています。 頻度の高いコントリビューターは、通常は継続的な（長期にわたる）変更を取り扱います。つまり、構築／検証／ステージングのサイクルを繰り返したり、プルリクエストのサインオフや結合までに数日かかったりする変更を扱います。
+このワークフローは、大きな変更を加える必要があるコントリビューターや、リポジトリに頻繁にコントリビューションするコントリビューターに適しています。 頻度の高いコントリビューターは、通常は継続的な（長期にわたる）変更を取り扱います。つまり、構築／検証／ステージングのサイクルを繰り返したり、プルリクエストのサインオフや結合までに数日かかったりする変更を扱います。
 
 ### 用語
 
@@ -30,7 +28,7 @@ ht-degree: 96%
 |-----------|-------------|
 | フォーク | 通常は名詞として使用され、メイン GitHub リポジトリのコピーを指します。 実際のところ、フォークは単にもう 1 つのリポジトリですが、 メイン（親）リポジトリとの双方向的な接続が GitHub によって維持されるという特別な性質を持ちます。 「まずリポジトリをフォークする必要があります」のように、動詞として使用される場合もあります。 |
 | リモート | リモートリポジトリへの名前付きの接続です。「origin」や「upstream」などのリモートがあります。 Git でこれらの接続をリモートと呼ぶのは、別のコンピューターにホストされているリポジトリを参照するときに使用されるからです。 このワークフローでは、リモートは常に GitHub リポジトリです。 |
-| origin | ローカルリポジトリと、そのクローン元のリポジトリとの間の接続に割り当てられる名前です。 このワークフローでは、origin は、作成されたフォークへの接続を表します。 「origin に対する変更を必ずプッシュしてください」のように、origin リポジトリ自体を指す名称として使用されることもあります。 |
+| origin | ローカルリポジトリと、そのクローン元のリポジトリとの間の接続に割り当てられる名前です。 このワークフローでは、オリジンは、自分のフォークへの接続を表します。 「origin に対する変更を必ずプッシュしてください」のように、origin リポジトリ自体を指す名称として使用されることもあります。 |
 | upstream | origin リモートと同じく、upstream も別のリポジトリへの接続の名称です。 このワークフローでは、upstream は、ローカルリポジトリとメインリポジトリ（フォーク作成元）との間の接続を表します。 「upstream から変更を必ずプルしてください」のように、upstream リポジトリ自体を指す名称として使用されることもあります。 |
 
 Git および GitHub のリポジトリやブランチといった概念に馴染みがない場合は、[Git および GitHub の基礎](git-fundamentals.md)をまず確認してください。
@@ -49,9 +47,11 @@ Git および GitHub のリポジトリやブランチといった概念に馴�
 
 関連する変更を特定のブランチに隔離しておくと、これらの変更を独立して管理したり導入したりでき、公開サイクルの特定のリリースをターゲットにすることもできます。 おこなう作業の種類にもよりますが、実際の作業環境では、リポジトリ内に複数の作業ブランチができることがよくあります。 それぞれ別のプロジェクトの複数のブランチで同時に作業することも珍しくありません。
 
+<!--
 >[!NOTE]
 >
->main ブランチで変更を行うことは&#x200B;*お勧めしません*。 例えば、あなたは main ブランチを使用して、期日の決まっている機能リリースにいくつかの変更を導入するとします。 変更作業を終えて、リリースを待っています。 リリースの前に緊急の修正作業を依頼されたので、あなたは main ブランチ内のファイルを変更し、変更をパブリッシュします。 この場合は、最新の修正結果と、特定期日のリリースに導入した保留中の変更の&#x200B;*両方*&#x200B;が誤ってパブリッシュされてしまいます。
+>Making your changes in the main branch *is not a good practice*. Imagine that you use the main branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the main branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
+-->
 
 次に、ローカルリポジトリ内に新しい作業ブランチを作成し、ここで変更案を反映します。 Git クライアントによって作業方法が異なるので、使用するクライアントのヘルプを参照してください。 プロセスの概要については、GitHub ガイドの [GitHub フロー](https://guides.github.com/introduction/flow/)の説明を参照してください。
 
