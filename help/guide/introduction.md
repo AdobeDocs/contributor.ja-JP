@@ -4,40 +4,38 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: このガイドでは、アドビのドキュメントサイトに提案や追加を行う方法について説明します。
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 6474661d6b2494cff3dd02b507f407181143d4a0
+source-git-commit: a1466cb4bcbef51689c659e25d56d5cb0d4843a6
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 91%
-
+source-wordcount: '899'
+ht-degree: 78%
 ---
-
 # アドビドキュメントのコントリビューターガイド
 
 このガイドでは、Experience League に関するアドビの法人向けヘルプに投稿する方法を説明します。
 
 ## コラボレーティブドキュメントとは？
 
-Adobe Experience Cloud やその他のアドビエンタープライズ製品の技術ドキュメントや実施可能性コンテンツは、GitHub、Markdown、Adobe Experience Cloud の各ソリューションを利用するオープンソースの原則に基づいています。
+Adobe CX Enterpriseおよびその他のAdobe Enterprise製品に関する技術ドキュメントとイネーブルメントコンテンツは、GitHub、Markdown、およびAdobe CX Enterprise ソリューションを使用するオープンソースの原則に基づいています。
 
 このオープンソースモデルにより、コンテンツの品質、および顧客やドキュメントチーム、製品チーム間のコミュニケーションが向上します。 すべてのページで、コンテンツの有用性、問題のログ、および Git プルリクエスト（PR）としてコンテンツの提案事項をコントリビューションできるようになりました。 アドビのドキュメントチームは、毎日のコントリビューションと問題を監視し、必要に応じて更新および調整をおこないます。
 
 ## 共同作業ドキュメントの操作
 
-従業員、パートナー、顧客、または潜在顧客にかかわらず、この資料の利用者には、このドキュメントに投稿できる簡単な方法がいくつかあります。
+従業員、パートナー、顧客、または潜在顧客にかかわらず、この資料のユーザーには、このドキュメントに投稿できる簡単な方法がいくつかあります。
 
 * ページ ❶の有用性を評価し、オプションのコメント ❷を書きます
 * 特定のページに対して問題を報告します（Git ログインが必要） ❸
 * アセットとコードサンプルを含む記事のオーサリングにクイックエディットを送信します（Git ログインが必要） ❹
 
-![フィードバック](assets/feedback-options.png)
+![フィードバック](assets/feedback-options-2026.png)
 
-これらのオプションは、ページを開いて数秒後にページの下部に表示されます。 フィードバック領域を閉じても、ページをリロードして元に戻すことができます。
+これらのオプションは、ページを開いてから数秒後に右側に表示されます。
 
 このガイドでは、このマテリアルセットを操作し、貢献するために知っておくべきことを概説します。
 
 ## ページの有用性を評価し、コメントを書きます
 
-ページを開いて数秒後に、フィードバック領域がページの下部に表示されます。 上または下をクリックして、ページが役に立ったかどうかを示します。
+ページを開いて数秒後、ページの右側にフィードバック領域が表示されます。 上または下をクリックして、ページが役に立ったかどうかを示します。
 
 遠慮なくコメントを残して、追加のフィードバックを提供してください。
 
@@ -49,7 +47,7 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
    アドビの CLA は 1 回提出すれば済みます。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Suggest an edit]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の右側に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、**[!UICONTROL Suggest an edit]**&#x200B;をクリックしてGitHubのマークダウンソースファイルに移動します。
 
    ![このページを編集アイコン](/help/guide/assets/feedback-suggest-edit.png)
 
@@ -81,7 +79,7 @@ Adobe Experience Cloud やその他のアドビエンタープライズ製品の
 
 コンテンツの一部に関する問題を容易に指摘するもう一つの方法は、**[!UICONTROL Report an issue]** を使用することです。
 
-1. 記事の下部に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**、**[!UICONTROL Report an issue]** の順にクリックして、GitHub の markdown ソースファイルに移動します。
+1. 記事の右側に表示されるフィードバック領域で、**[!UICONTROL Detailed feedback options]**&#x200B;をクリックし、**[!UICONTROL Report an issue]**&#x200B;をクリックしてGitHubのマークダウンソースファイルに移動します。
 
    ![問題を報告](assets/feedback-report-issue.png)
 
@@ -109,7 +107,6 @@ GitHub の編集 UI は、利用者のリポジトリ権限に応じて変化し
 
 ## フィードバックの提供
 
-アドビのソリューションセットのように大規模なものになると、ドキュメントは常に作業中になります。 エラーを見つけた場合はログに記録し、提案がある場合はアドビまでお知らせください。 どのような情報を探しているか、ご意見をお聞かせください。 必要な情報が見つからない場合は、その旨をお知らせください。タスクをうまく完了できない場合は、どこがわからないかをご指摘ください。
+アドビのソリューションセットのように大規模なものになると、ドキュメントは常に作業中になります。 エラーを見つけた場合はイシューを記録し、資料について提案がある場合はアドビまでお知らせください。 どのような情報を探しているか、ご意見をお聞かせください。 必要な情報が見つからない場合は、その旨をお知らせください。タスクをうまく完了できない場合は、どこがわからないかをご指摘ください。
 
 Experience LeagueのCollaborative Documentation チームとライターやコンテンツ制作者の皆さんからのお礼です。 ご協力ありがとうございました。
-

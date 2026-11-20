@@ -9,10 +9,10 @@ cloud: Experience Cloud
 user-guide-title: 貢献者ガイド
 user-guide-description: Adobe ドキュメントへのコントリビューター向け手順
 index: true
-source-git-commit: a2f6b0d5b397ba80401a7351f72ac5b2b4dd35e8
+source-git-commit: a1466cb4bcbef51689c659e25d56d5cb0d4843a6
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 64%
+source-wordcount: '73'
+ht-degree: 86%
 ---
 
 # アドビドキュメントのコントリビューターガイド{#contributor-guide}
@@ -34,6 +34,3 @@ ht-degree: 64%
 + 実施とコントリビューション {#conduct-contributions}
   + [行動規範](conduct/code-of-conduct.md)
   + [コントリビューションの概要](conduct/contributing.md)
-+ テストは無視 {#testing}
-  + [IDを使用したAnalytics](https://experienceleague.adobe.com/ja/docs/analytics/implementation/id/overview)
-  + [認証ガイド](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
